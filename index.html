@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="TTC Damme">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    <title>TTC Damme - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav>
+        <div class="nav-content">
+            <div class="logo">TTC <span>DAMME</span></div>
+            <ul class="nav-links">
+                <li><a href="#rankings" class="active">Ploegen</a></li>
+                <li><a href="#results">Resultaten</a></li>
+                <li><a href="#players">Leden</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Dashboard <span class="club-id">WVL158</span></h1>
+            <p>Live rangschikkingen en resultaten van de Vlaamse Tafeltennisliga.</p>
+        </header>
+
+        <section id="rankings" class="glass-section">
+            <div class="section-header">
+                <h2>Rangschikking Ploegen</h2>
+                <div class="last-updated">Update: <span id="rankings-timestamp">-</span></div>
+            </div>
+            <div class="grid-container" id="rankings-grid">
+                <!-- Rankings will be injected here -->
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <section id="results" class="glass-section">
+            <div class="section-header">
+                <h2>Recente Resultaten</h2>
+            </div>
+            <div id="results-container">
+                <div class="table-container">
+                    <table class="DBTable">
+                        <thead>
+                            <tr>
+                                <th>Ploeg</th>
+                                <th>Datum</th>
+                                <th>Thuis</th>
+                                <th>Bezoeker</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="results-body">
+                            <!-- Results will be injected here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="calendar-past" class="glass-section">
+            <div class="section-header collapsible-header" data-target="calendar-past-content">
+                <h2>Team Kalender (Gespeeld) <span class="toggle-icon">▼</span></h2>
+                <div class="tabs" onclick="event.stopPropagation()">
+                    <button class="tab-btn active" data-team="A" data-type="past">Damme A</button>
+                    <button class="tab-btn" data-team="B" data-type="past">Damme B</button>
+                    <button class="tab-btn" data-team="C" data-type="past">Damme C</button>
+                    <button class="tab-btn" data-team="D" data-type="past">Damme D</button>
+                </div>
+            </div>
+            <div id="calendar-past-content" class="collapsible-content">
+                <div class="table-container">
+                    <table id="calendar-past-table">
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Tijd</th>
+                                <th>Thuis</th>
+                                <th>Bezoekers</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="calendar-past-body">
+                            <!-- Past Calendar injected here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="calendar-upcoming" class="glass-section">
+            <div class="section-header collapsible-header" data-target="calendar-upcoming-content">
+                <h2>Team Kalender (te Spelen) <span class="toggle-icon">▼</span></h2>
+                <div class="tabs" onclick="event.stopPropagation()">
+                    <button class="tab-btn active" data-team="A" data-type="upcoming">Damme A</button>
+                    <button class="tab-btn" data-team="B" data-type="upcoming">Damme B</button>
+                    <button class="tab-btn" data-team="C" data-type="upcoming">Damme C</button>
+                    <button class="tab-btn" data-team="D" data-type="upcoming">Damme D</button>
+                </div>
+            </div>
+            <div id="calendar-upcoming-content" class="collapsible-content">
+                <div class="table-container">
+                    <table id="calendar-upcoming-table">
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Tijd</th>
+                                <th>Thuis</th>
+                                <th>Bezoekers</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="calendar-upcoming-body">
+                            <!-- Upcoming Calendar injected here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="players" class="glass-section">
+            <div class="section-header collapsible-header" data-target="players-content">
+                <h2>Ledenlijst <span class="toggle-icon">▼</span></h2>
+                <div class="controls" onclick="event.stopPropagation()">
+                    <input type="text" id="player-search" placeholder="Zoek op naam..." class="glass-input">
+                    <select id="player-sort" class="glass-select">
+                        <option value="elo">Sorteer op Elo</option>
+                        <option value="name">Sorteer op Naam</option>
+                        <option value="relative">Sorteer op Relatieve punten</option>
+                        <option value="classification">Sorteer op Klassering</option>
+                    </select>
+                </div>
+            </div>
+            <div id="players-content" class="collapsible-content">
+                <div class="table-container">
+                    <table id="players-table">
+                        <thead>
+                            <tr>
+                                <th>Naam</th>
+                                <th>Kl.</th>
+                                <th>Elo</th>
+                                <th>Rel.</th>
+                                <th>Acties</th>
+                            </tr>
+                        </thead>
+                        <tbody id="players-body">
+                            <!-- Players will be injected here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TTC Damme - Data powered by <a href="https://competitie.vttl.be" target="_blank">VTTL</a></p>
+    </footer>
+
+    <div id="ranking-modal" class="modal">
+        <div class="modal-content glass-section">
+            <div class="modal-header">
+                <h2 id="modal-title">Volledige Rangschikking</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Ploeg</th>
+                            <th>AW</th>
+                            <th>W</th>
+                            <th>V</th>
+                            <th>G</th>
+                            <th>Pt</th>
+                        </tr>
+                    </thead>
+                    <tbody id="modal-table-body">
+                        <!-- Ranking details injected here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="match-modal" class="modal">
+        <div class="modal-content glass-section match-detail-modal">
+            <div class="modal-header">
+                <h2 id="match-modal-title">Wedstrijd Detail</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="match-info-header">
+                <div class="match-teams-large">
+                    <span id="match-home-team">-</span>
+                    <span class="vs">vs</span>
+                    <span id="match-away-team">-</span>
+                </div>
+                <div id="match-overall-score" class="overall-score">-</div>
+            </div>
+            <div class="match-details-grid">
+                <div class="players-column">
+                    <h3>Home Spelers</h3>
+                    <ul id="match-home-players"></ul>
+                </div>
+                <div class="players-column">
+                    <h3>Bezoekers</h3>
+                    <ul id="match-away-players"></ul>
+                </div>
+            </div>
+            <div class="games-section">
+                <h3>Individuele Wedstrijden</h3>
+                <div class="table-container">
+                    <table id="match-games-table">
+                        <thead>
+                            <tr>
+                                <th>Thuis</th>
+                                <th>Uit</th>
+                                <th>Sets</th>
+                                <th>Uitslag</th>
+                            </tr>
+                        </thead>
+                        <tbody id="match-games-body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('SW Registered'))
+                    .catch(err => console.log('SW Failed', err));
+            });
+        }
+    </script>
+</body>
+
+</html>

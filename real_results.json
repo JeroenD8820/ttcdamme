@@ -1,0 +1,30 @@
+[
+    {
+        "date": "07/02/2026",
+        "home": "T.T.C. Damme A",
+        "away": "T.T.C. Meulebeke A",
+        "score": "12 - 04",
+        "result": "win"
+    },
+    {
+        "date": "07/02/2026",
+        "home": "T.T.C. Damme B",
+        "away": "T.T.C. Jabbeke C",
+        "score": "02 - 14",
+        "result": "loss"
+    },
+    {
+        "date": "07/02/2026",
+        "home": "T.T.C. Damme C",
+        "away": "T.T.C. Jabbeke D",
+        "score": "08 - 08",
+        "result": "draw"
+    },
+    {
+        "date": "07/02/2026",
+        "home": "T.T.C. Damme D",
+        "away": "T.T.C. Meulebeke D",
+        "score": "06 - 10",
+        "result": "loss"
+    }
+]

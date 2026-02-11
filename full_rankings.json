@@ -1,0 +1,442 @@
+{
+    "Damme A": [
+        {
+            "position": "1",
+            "team": "T.T.C. Drive Oostende A",
+            "matches": "15",
+            "wins": "13",
+            "losses": "0",
+            "draws": "2",
+            "points": "43"
+        },
+        {
+            "position": "2",
+            "team": "T.T.C. Jong Gullegem D",
+            "matches": "15",
+            "wins": "11",
+            "losses": "3",
+            "draws": "1",
+            "points": "38"
+        },
+        {
+            "position": "3",
+            "team": "T.T.C. And Leie B",
+            "matches": "15",
+            "wins": "11",
+            "losses": "3",
+            "draws": "1",
+            "points": "38"
+        },
+        {
+            "position": "4",
+            "team": "TTC Mandelhoek A",
+            "matches": "15",
+            "wins": "10",
+            "losses": "3",
+            "draws": "2",
+            "points": "37"
+        },
+        {
+            "position": "5",
+            "team": "T.T.C. Wielsbeke-spotit B",
+            "matches": "15",
+            "wins": "8",
+            "losses": "6",
+            "draws": "1",
+            "points": "32"
+        },
+        {
+            "position": "6",
+            "team": "T.T.C. Damme A",
+            "matches": "15",
+            "wins": "6",
+            "losses": "5",
+            "draws": "4",
+            "points": "31"
+        },
+        {
+            "position": "7",
+            "team": "T.T.C. Torhout A",
+            "matches": "15",
+            "wins": "6",
+            "losses": "8",
+            "draws": "1",
+            "points": "28"
+        },
+        {
+            "position": "8",
+            "team": "K.T.T.C. Oostduinkerke B",
+            "matches": "15",
+            "wins": "5",
+            "losses": "7",
+            "draws": "3",
+            "points": "28"
+        },
+        {
+            "position": "9",
+            "team": "T.T.C. Eendracht Kuurne A",
+            "matches": "15",
+            "wins": "5",
+            "losses": "9",
+            "draws": "1",
+            "points": "26"
+        },
+        {
+            "position": "10",
+            "team": "T.T.C. Zandvoorde D",
+            "matches": "15",
+            "wins": "3",
+            "losses": "11",
+            "draws": "1",
+            "points": "22"
+        },
+        {
+            "position": "11",
+            "team": "T.T.C. Drive Oostende B",
+            "matches": "15",
+            "wins": "2",
+            "losses": "12",
+            "draws": "1",
+            "points": "19"
+        },
+        {
+            "position": "12",
+            "team": "T.T.C. Meulebeke A",
+            "matches": "15",
+            "wins": "0",
+            "losses": "13",
+            "draws": "2",
+            "points": "17"
+        }
+    ],
+    "Damme B": [
+        {
+            "position": "1",
+            "team": "T.T.C. Tielt A",
+            "matches": "15",
+            "wins": "15",
+            "losses": "0",
+            "draws": "0",
+            "points": "45"
+        },
+        {
+            "position": "2",
+            "team": "T.T.C. Koekelare B",
+            "matches": "15",
+            "wins": "12",
+            "losses": "1",
+            "draws": "2",
+            "points": "41"
+        },
+        {
+            "position": "3",
+            "team": "T.T.C. Drive Oostende D",
+            "matches": "15",
+            "wins": "13",
+            "losses": "2",
+            "draws": "0",
+            "points": "40"
+        },
+        {
+            "position": "4",
+            "team": "T.T.C. Knokke-Heist A",
+            "matches": "15",
+            "wins": "9",
+            "losses": "5",
+            "draws": "1",
+            "points": "34"
+        },
+        {
+            "position": "5",
+            "team": "T.T.C. And Leie D",
+            "matches": "15",
+            "wins": "8",
+            "losses": "6",
+            "draws": "1",
+            "points": "32"
+        },
+        {
+            "position": "6",
+            "team": "T.T.C. Zandvoorde H",
+            "matches": "15",
+            "wins": "7",
+            "losses": "6",
+            "draws": "2",
+            "points": "30"
+        },
+        {
+            "position": "7",
+            "team": "T.T.C. Wielsbeke-spotit F",
+            "matches": "15",
+            "wins": "7",
+            "losses": "7",
+            "draws": "1",
+            "points": "30"
+        },
+        {
+            "position": "8",
+            "team": "T.T.C. Jabbeke C",
+            "matches": "15",
+            "wins": "6",
+            "losses": "9",
+            "draws": "0",
+            "points": "27"
+        },
+        {
+            "position": "9",
+            "team": "T.T.C. Jong Gullegem G",
+            "matches": "15",
+            "wins": "5",
+            "losses": "9",
+            "draws": "1",
+            "points": "26"
+        },
+        {
+            "position": "10",
+            "team": "T.T.C. Damme B",
+            "matches": "15",
+            "wins": "2",
+            "losses": "13",
+            "draws": "0",
+            "points": "19"
+        },
+        {
+            "position": "11",
+            "team": "TTC Mandelhoek D",
+            "matches": "15",
+            "wins": "1",
+            "losses": "14",
+            "draws": "0",
+            "points": "17"
+        },
+        {
+            "position": "12",
+            "team": "T.T.C. Nieuwpoort B",
+            "matches": "15",
+            "wins": "1",
+            "losses": "14",
+            "draws": "0",
+            "points": "17"
+        }
+    ],
+    "Damme C": [
+        {
+            "position": "1",
+            "team": "T.T.C. Torhout D",
+            "matches": "15",
+            "wins": "14",
+            "losses": "1",
+            "draws": "0",
+            "points": "43"
+        },
+        {
+            "position": "2",
+            "team": "T.T.C. The Charlies B",
+            "matches": "15",
+            "wins": "13",
+            "losses": "2",
+            "draws": "0",
+            "points": "40"
+        },
+        {
+            "position": "3",
+            "team": "T.T.C. Koekelare D",
+            "matches": "15",
+            "wins": "8",
+            "losses": "5",
+            "draws": "2",
+            "points": "33"
+        },
+        {
+            "position": "4",
+            "team": "T.T.C. Damme C",
+            "matches": "15",
+            "wins": "8",
+            "losses": "6",
+            "draws": "1",
+            "points": "32"
+        },
+        {
+            "position": "5",
+            "team": "T.T.C. Jabbeke D",
+            "matches": "15",
+            "wins": "6",
+            "losses": "5",
+            "draws": "4",
+            "points": "31"
+        },
+        {
+            "position": "6",
+            "team": "T.T.C. Drive Oostende H",
+            "matches": "15",
+            "wins": "7",
+            "losses": "7",
+            "draws": "1",
+            "points": "30"
+        },
+        {
+            "position": "7",
+            "team": "T.T.C. Wielsbeke-spotit G",
+            "matches": "15",
+            "wins": "6",
+            "losses": "7",
+            "draws": "2",
+            "points": "29"
+        },
+        {
+            "position": "8",
+            "team": "T.T.C. Zonnebeke E",
+            "matches": "15",
+            "wins": "5",
+            "losses": "6",
+            "draws": "4",
+            "points": "29"
+        },
+        {
+            "position": "9",
+            "team": "T.T.C. Zandvoorde I",
+            "matches": "15",
+            "wins": "5",
+            "losses": "10",
+            "draws": "0",
+            "points": "25"
+        },
+        {
+            "position": "10",
+            "team": "K.T.T.C. Dino Brugge E",
+            "matches": "15",
+            "wins": "5",
+            "losses": "10",
+            "draws": "0",
+            "points": "25"
+        },
+        {
+            "position": "11",
+            "team": "T.T.C. Oostkamp C",
+            "matches": "15",
+            "wins": "3",
+            "losses": "11",
+            "draws": "1",
+            "points": "21"
+        },
+        {
+            "position": "12",
+            "team": "K.T.T.C. Oostduinkerke F",
+            "matches": "15",
+            "wins": "2",
+            "losses": "12",
+            "draws": "1",
+            "points": "20"
+        }
+    ],
+    "Damme D": [
+        {
+            "position": "1",
+            "team": "K.T.T.C. Oostduinkerke E",
+            "matches": "15",
+            "wins": "12",
+            "losses": "3",
+            "draws": "0",
+            "points": "39"
+        },
+        {
+            "position": "2",
+            "team": "T.T.C. Oostkamp B",
+            "matches": "15",
+            "wins": "10",
+            "losses": "4",
+            "draws": "1",
+            "points": "36"
+        },
+        {
+            "position": "3",
+            "team": "T.T.C. Drive Oostende G",
+            "matches": "15",
+            "wins": "10",
+            "losses": "5",
+            "draws": "0",
+            "points": "35"
+        },
+        {
+            "position": "4",
+            "team": "K.T.T.C. Dino Brugge D",
+            "matches": "15",
+            "wins": "8",
+            "losses": "4",
+            "draws": "3",
+            "points": "34"
+        },
+        {
+            "position": "5",
+            "team": "T.T.C. Knokke-Heist B",
+            "matches": "15",
+            "wins": "7",
+            "losses": "6",
+            "draws": "2",
+            "points": "31"
+        },
+        {
+            "position": "6",
+            "team": "T.T.C. De woudpalet Houthulst vzw C",
+            "matches": "15",
+            "wins": "8",
+            "losses": "6",
+            "draws": "1",
+            "points": "31"
+        },
+        {
+            "position": "7",
+            "team": "T.T.C. Damme D",
+            "matches": "15",
+            "wins": "7",
+            "losses": "7",
+            "draws": "1",
+            "points": "30"
+        },
+        {
+            "position": "8",
+            "team": "T.T.C. Meulebeke D",
+            "matches": "15",
+            "wins": "6",
+            "losses": "7",
+            "draws": "2",
+            "points": "29"
+        },
+        {
+            "position": "9",
+            "team": "T.T.C. Torhout E",
+            "matches": "15",
+            "wins": "7",
+            "losses": "8",
+            "draws": "0",
+            "points": "28"
+        },
+        {
+            "position": "10",
+            "team": "T.T.C. Zandvoorde J",
+            "matches": "15",
+            "wins": "6",
+            "losses": "9",
+            "draws": "0",
+            "points": "27"
+        },
+        {
+            "position": "11",
+            "team": "T.T.C. Koekelare E",
+            "matches": "15",
+            "wins": "3",
+            "losses": "12",
+            "draws": "0",
+            "points": "20"
+        },
+        {
+            "position": "12",
+            "team": "T.T.C. Bredene A",
+            "matches": "15",
+            "wins": "1",
+            "losses": "14",
+            "draws": "0",
+            "points": "15"
+        }
+    ]
+}

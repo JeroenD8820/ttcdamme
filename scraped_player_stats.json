@@ -1,0 +1,219 @@
+[
+    {
+        "name": "ANDREAS JACXSENS",
+        "classification": "NG",
+        "relative": 0,
+        "elo": 363,
+        "frenoyId": "124291"
+    },
+    {
+        "name": "BART D'HOORE",
+        "classification": "E2",
+        "relative": 3,
+        "elo": 739,
+        "frenoyId": "77261"
+    },
+    {
+        "name": "BART VANDERPLAETSE",
+        "classification": "D4",
+        "relative": -7,
+        "elo": 1198,
+        "frenoyId": "41895"
+    },
+    {
+        "name": "BRIEK REYBROUCK",
+        "classification": "NG",
+        "relative": 0,
+        "elo": 0,
+        "frenoyId": "119697"
+    },
+    {
+        "name": "DAVE IDE",
+        "classification": "E6",
+        "relative": -1,
+        "elo": 410,
+        "frenoyId": "96101"
+    },
+    {
+        "name": "GERT-JAN MAHIEU",
+        "classification": "C2",
+        "relative": 12,
+        "elo": 1779,
+        "frenoyId": "37490"
+    },
+    {
+        "name": "GWEN GRIJP",
+        "classification": "E4",
+        "relative": 4,
+        "elo": 0,
+        "frenoyId": "8879"
+    },
+    {
+        "name": "HANNE VAN BUYLAERE",
+        "classification": "NG",
+        "relative": -3,
+        "elo": 267,
+        "frenoyId": "125339"
+    },
+    {
+        "name": "IAN ROBBERECHTS",
+        "classification": "NG",
+        "relative": -6,
+        "elo": 0,
+        "frenoyId": "119969"
+    },
+    {
+        "name": "JASPER MAHIEU",
+        "classification": "B6",
+        "relative": -8,
+        "elo": 2124,
+        "frenoyId": "37491"
+    },
+    {
+        "name": "JEAN-PIERRE DEFOUR",
+        "classification": "E2",
+        "relative": -18,
+        "elo": 698,
+        "frenoyId": "11604"
+    },
+    {
+        "name": "JELLE PAREYN",
+        "classification": "E4",
+        "relative": 15,
+        "elo": 768,
+        "frenoyId": "105563"
+    },
+    {
+        "name": "JENTE PAREYN",
+        "classification": "E0",
+        "relative": -21,
+        "elo": 742,
+        "frenoyId": "105565"
+    },
+    {
+        "name": "JEROEN CATTOOR",
+        "classification": "E4",
+        "relative": 3,
+        "elo": 833,
+        "frenoyId": "37807"
+    },
+    {
+        "name": "JEROEN DOMBRECHT",
+        "classification": "E4",
+        "relative": 12,
+        "elo": 804,
+        "frenoyId": "81329"
+    },
+    {
+        "name": "JOHAN MALFRERE",
+        "classification": "E6",
+        "relative": 3,
+        "elo": 620,
+        "frenoyId": "84655"
+    },
+    {
+        "name": "JORIS HERNOU",
+        "classification": "E4",
+        "relative": 6,
+        "elo": 0,
+        "frenoyId": "77259"
+    },
+    {
+        "name": "KURT D'HOORE",
+        "classification": "E4",
+        "relative": 14,
+        "elo": 827,
+        "frenoyId": "77260"
+    },
+    {
+        "name": "LUC MAHIEU",
+        "classification": "E4",
+        "relative": 2,
+        "elo": 661,
+        "frenoyId": "41516"
+    },
+    {
+        "name": "LUCAS DOMBRECHT",
+        "classification": "E4",
+        "relative": 2,
+        "elo": 799,
+        "frenoyId": "103069"
+    },
+    {
+        "name": "MARIA-HELENA FACK",
+        "classification": "NG",
+        "relative": -5,
+        "elo": 245,
+        "frenoyId": "115103"
+    },
+    {
+        "name": "MICHIEL KEMPINCK",
+        "classification": "C4",
+        "relative": 23,
+        "elo": 1636,
+        "frenoyId": "11497"
+    },
+    {
+        "name": "MILAN MORTIER",
+        "classification": "E4",
+        "relative": 0,
+        "elo": 688,
+        "frenoyId": "96111"
+    },
+    {
+        "name": "NAND HERNOU",
+        "classification": "NG",
+        "relative": 15,
+        "elo": 422,
+        "frenoyId": "115155"
+    },
+    {
+        "name": "OLIVER VANAGT",
+        "classification": "NG",
+        "relative": -5,
+        "elo": 265,
+        "frenoyId": "125347"
+    },
+    {
+        "name": "PASCAL HUYBRECHS",
+        "classification": "E2",
+        "relative": 24,
+        "elo": 868,
+        "frenoyId": "11557"
+    },
+    {
+        "name": "REGINE PHARASYN",
+        "classification": "E6",
+        "relative": -1,
+        "elo": 442,
+        "frenoyId": "11603"
+    },
+    {
+        "name": "ROBBE VAN BUYLAERE",
+        "classification": "NG",
+        "relative": -4,
+        "elo": 291,
+        "frenoyId": "125341"
+    },
+    {
+        "name": "SARI BLONDEEL",
+        "classification": "E2",
+        "relative": -6,
+        "elo": 789,
+        "frenoyId": "73688"
+    },
+    {
+        "name": "VICTOR VANHOVE",
+        "classification": "D6",
+        "relative": -2,
+        "elo": 0,
+        "frenoyId": "39178"
+    },
+    {
+        "name": "WOUTER JANSSENS",
+        "classification": "E6",
+        "relative": 1,
+        "elo": 692,
+        "frenoyId": "54442"
+    }
+]

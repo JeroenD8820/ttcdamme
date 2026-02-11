@@ -1,0 +1,226 @@
+[
+  {
+    "memberId": "512926",
+    "name": "JASPER MAHIEU",
+    "classification": "B6",
+    "elo": 2124,
+    "relative": 0
+  },
+  {
+    "memberId": "512925",
+    "name": "GERT-JAN MAHIEU",
+    "classification": "C2",
+    "elo": 1779,
+    "relative": 12
+  },
+  {
+    "memberId": "500783",
+    "name": "MICHIEL KEMPINCK",
+    "classification": "C4",
+    "elo": 1636,
+    "relative": 23
+  },
+  {
+    "memberId": "514169",
+    "name": "BART VANDERPLAETSE",
+    "classification": "D4",
+    "elo": 1198,
+    "relative": 0
+  },
+  {
+    "memberId": "500969",
+    "name": "PASCAL HUYBRECHS",
+    "classification": "E2",
+    "elo": 868,
+    "relative": 24
+  },
+  {
+    "memberId": "513031",
+    "name": "JEROEN CATTOOR",
+    "classification": "E4",
+    "elo": 833,
+    "relative": 3
+  },
+  {
+    "memberId": "526291",
+    "name": "KURT D'HOORE",
+    "classification": "E4",
+    "elo": 827,
+    "relative": 14
+  },
+  {
+    "memberId": "527606",
+    "name": "JEROEN DOMBRECHT",
+    "classification": "E4",
+    "elo": 804,
+    "relative": 12
+  },
+  {
+    "memberId": "531918",
+    "name": "LUCAS DOMBRECHT",
+    "classification": "E4",
+    "elo": 799,
+    "relative": 2
+  },
+  {
+    "memberId": "524879",
+    "name": "SARI BLONDEEL",
+    "classification": "E2",
+    "elo": 789,
+    "relative": 0
+  },
+  {
+    "memberId": "532355",
+    "name": "JELLE PAREYN",
+    "classification": "E4",
+    "elo": 768,
+    "relative": 15
+  },
+  {
+    "memberId": "532356",
+    "name": "JENTE PAREYN",
+    "classification": "E0",
+    "elo": 742,
+    "relative": 0
+  },
+  {
+    "memberId": "526292",
+    "name": "BART D'HOORE",
+    "classification": "E2",
+    "elo": 739,
+    "relative": 3
+  },
+  {
+    "memberId": "501134",
+    "name": "JEAN-PIERRE DEFOUR",
+    "classification": "E2",
+    "elo": 698,
+    "relative": 0
+  },
+  {
+    "memberId": "517743",
+    "name": "WOUTER JANSSENS",
+    "classification": "E6",
+    "elo": 692,
+    "relative": 1
+  },
+  {
+    "memberId": "530496",
+    "name": "MILAN MORTIER",
+    "classification": "E4",
+    "elo": 688,
+    "relative": 0
+  },
+  {
+    "memberId": "513960",
+    "name": "LUC MAHIEU",
+    "classification": "E4",
+    "elo": 661,
+    "relative": 2
+  },
+  {
+    "memberId": "527709",
+    "name": "JOHAN MALFRERE",
+    "classification": "E6",
+    "elo": 620,
+    "relative": 3
+  },
+  {
+    "memberId": "501132",
+    "name": "REGINE PHARASYN",
+    "classification": "E6",
+    "elo": 442,
+    "relative": -1
+  },
+  {
+    "memberId": "534289",
+    "name": "NAND HERNOU",
+    "classification": "NG",
+    "elo": 422,
+    "relative": 15
+  },
+  {
+    "memberId": "530516",
+    "name": "DAVE IDE",
+    "classification": "E6",
+    "elo": 410,
+    "relative": -1
+  },
+  {
+    "memberId": "535946",
+    "name": "ANDREAS JACXSENS",
+    "classification": "NG",
+    "elo": 363,
+    "relative": 0
+  },
+  {
+    "memberId": "535948",
+    "name": "ROBBE VAN BUYLAERE",
+    "classification": "NG",
+    "elo": 291,
+    "relative": 0
+  },
+  {
+    "memberId": "535947",
+    "name": "HANNE VAN BUYLAERE",
+    "classification": "NG",
+    "elo": 267,
+    "relative": 0
+  },
+  {
+    "memberId": "536044",
+    "name": "OLIVER VANAGT",
+    "classification": "NG",
+    "elo": 265,
+    "relative": 0
+  },
+  {
+    "memberId": "534291",
+    "name": "MARIA-HELENA FACK",
+    "classification": "NG",
+    "elo": 245,
+    "relative": 0
+  },
+  {
+    "memberId": "501549",
+    "name": "DAAN DE JAEGHERE",
+    "classification": "C6",
+    "elo": 0,
+    "relative": 0
+  },
+  {
+    "memberId": "513374",
+    "name": "VICTOR VANHOVE",
+    "classification": "D6",
+    "elo": 0,
+    "relative": 0
+  },
+  {
+    "memberId": "500981",
+    "name": "KRISTOF ADAM",
+    "classification": "E2",
+    "elo": 0,
+    "relative": 0
+  },
+  {
+    "memberId": "504715",
+    "name": "GWEN GRIJP",
+    "classification": "E4",
+    "elo": 0,
+    "relative": 4
+  },
+  {
+    "memberId": "535114",
+    "name": "BRIEK REYBROUCK",
+    "classification": "NG",
+    "elo": 0,
+    "relative": 0
+  },
+  {
+    "memberId": "535166",
+    "name": "IAN ROBBERECHTS",
+    "classification": "NG",
+    "elo": 0,
+    "relative": 0
+  }
+]
