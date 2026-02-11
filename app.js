@@ -425,7 +425,6 @@ class Dashboard {
         results.forEach(res => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                <td><strong>${res.team}</strong></td>
                 <td>${res.date}</td>
                 <td>${res.home}</td>
                 <td>${res.away}</td>
