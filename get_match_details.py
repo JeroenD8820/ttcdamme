@@ -85,33 +85,35 @@ def main():
         
     with open('team_calendars.json', 'r', encoding='utf-8') as f:
         calendars = json.load(f)
-        
-    # To avoid repeated scraping of the same match (though unlikely here)
-    # or just to keep track
+    
+    # Load existing match details to avoid re-scraping
     all_details = {}
+    if os.path.exists('match_details.json'):
+        print("Loading existing match details...")
+        with open('match_details.json', 'r', encoding='utf-8') as f:
+            all_details = json.load(f)
+        print(f"Found {len(all_details)} existing match reports")
     
-    # We only scrape played matches (those with a score like "09 - 07")
-    # And we'll limit it to avoid too many requests at once during dev
-    
-    # Actually, let's scrape them all but maybe add a small delay
+    # Scrape all played matches (those with a score like "09 - 07")
     total_matches = 0
+    new_matches = 0
     for team, matches in calendars.items():
         for match in matches:
             if match.get('url') and match.get('score') and '-' in match['score']:
                 match_id = match['match_id']
                 if match_id not in all_details:
-                    # Let's check if we already have it (basic caching)
-                    # For now just scrape
+                    # Scrape new match
                     details = scrape_match_detail(match['url'])
                     if details:
                         all_details[match_id] = details
+                        new_matches += 1
                     total_matches += 1
                     time.sleep(0.5) # Be nice to the server
                     
     # Save to JSON
     with open('match_details.json', 'w', encoding='utf-8') as f:
         json.dump(all_details, f, indent=4, ensure_ascii=False)
-    print(f"Saved {len(all_details)} match reports to match_details.json")
+    print(f"Saved {len(all_details)} total match reports ({new_matches} new) to match_details.json")
 
     # Update data.js for local dashboard usage (CORS fix)
     try:

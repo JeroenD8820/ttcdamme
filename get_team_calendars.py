@@ -129,10 +129,7 @@ def main():
         combined_matches = []
         # We iterate over dates_data because it contains all matches for the division
         for match_id, date_info in dates_data.items():
-            # Filter for matches involving Damme
-            if "Damme" not in date_info["home_team"] and "Damme" not in date_info["away_team"]:
-                continue
-                
+            # Capture ALL matches in the division (not just Damme)
             combined = {
                 "match_id": match_id,
                 "home_team": date_info["home_team"],

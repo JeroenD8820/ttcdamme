@@ -190,6 +190,7 @@ class Dashboard {
         const closeBtns = document.querySelectorAll('.close-btn');
         const rankingModal = document.getElementById('ranking-modal');
         const matchModal = document.getElementById('match-modal');
+        const opponentModal = document.getElementById('opponent-modal');
         const tabBtns = document.querySelectorAll('.tab-btn');
         const collapsibles = document.querySelectorAll('.collapsible-header');
 
@@ -200,12 +201,14 @@ class Dashboard {
             btn.addEventListener('click', () => {
                 rankingModal.style.display = 'none';
                 matchModal.style.display = 'none';
+                opponentModal.style.display = 'none';
             });
         });
 
         window.addEventListener('click', (e) => {
             if (e.target === rankingModal) rankingModal.style.display = 'none';
             if (e.target === matchModal) matchModal.style.display = 'none';
+            if (e.target === opponentModal) opponentModal.style.display = 'none';
         });
 
         tabBtns.forEach(btn => {
@@ -423,6 +426,65 @@ class Dashboard {
         });
     }
 
+    showOpponentHistory(teamName) {
+        // Get all matches for this opponent across all divisions
+        const opponentMatches = [];
+
+        Object.entries(this.calendars).forEach(([team, matches]) => {
+            matches.forEach(match => {
+                if ((match.home_team === teamName || match.away_team === teamName) && match.score && match.score.includes('-')) {
+                    opponentMatches.push(match);
+                }
+            });
+        });
+
+        // Sort by date (most recent first)
+        opponentMatches.sort((a, b) => {
+            const dateA = this.parseVTTLDate(a.date);
+            const dateB = this.parseVTTLDate(b.date);
+            return dateB - dateA;
+        });
+
+        // Display in modal
+        const modal = document.getElementById('opponent-modal');
+        const teamNameEl = document.getElementById('opponent-team-name');
+        const tbody = document.getElementById('opponent-history-body');
+
+        teamNameEl.textContent = teamName;
+        tbody.innerHTML = '';
+
+        opponentMatches.forEach(match => {
+            const tr = document.createElement('tr');
+            tr.style.cursor = 'pointer';
+
+            // Get player info if available
+            const matchDetail = this.matchDetails[match.match_id];
+            let playersInfo = '-';
+            if (matchDetail) {
+                const homePlayers = matchDetail.home_players.map(p => p.name).join(', ');
+                const awayPlayers = matchDetail.away_players.map(p => p.name).join(', ');
+                playersInfo = `<small>${match.home_team}: ${homePlayers}<br>${match.away_team}: ${awayPlayers}</small>`;
+            }
+
+            tr.innerHTML = `
+                <td>${match.date}</td>
+                <td>${match.home_team}</td>
+                <td>${match.away_team}</td>
+                <td><strong>${match.score}</strong></td>
+                <td>${playersInfo}</td>
+            `;
+
+            // Click to view match detail
+            if (match.url && matchDetail) {
+                tr.addEventListener('click', () => this.showMatchDetail(match.match_id));
+            }
+
+            tbody.appendChild(tr);
+        });
+
+        modal.style.display = 'block';
+    }
+
     renderPastCalendar() {
         const body = document.getElementById('calendar-past-body');
         if (!body) return;
@@ -442,7 +504,7 @@ class Dashboard {
         body.innerHTML = '';
         matches.forEach(m => {
             const tr = document.createElement('tr');
-            tr.style.cursor = 'pointer';
+
             tr.innerHTML = `
                 <td>${m.date}</td>
                 <td>${m.time}</td>
@@ -450,7 +512,16 @@ class Dashboard {
                 <td>${m.away_team}</td>
                 <td class="score-cell">${m.score}</td>
             `;
-            tr.addEventListener('click', () => this.showMatchDetail(m.match_id));
+
+            // Add click handler ONLY to the score cell for match details
+            if (m.url) {
+                const scoreCell = tr.querySelector('.score-cell');
+                scoreCell.style.cursor = 'pointer';
+                scoreCell.addEventListener('click', () => {
+                    this.showMatchDetail(m.match_id);
+                });
+            }
+
             body.appendChild(tr);
         });
     }
@@ -458,29 +529,52 @@ class Dashboard {
     renderUpcomingCalendar() {
         const body = document.getElementById('calendar-upcoming-body');
         if (!body) return;
-        const matches = (this.calendars[this.activeTeamUpcoming] || []).filter(m => !m.score || !m.score.includes('-'));
+
+        // Filter to show only Damme matches
+        const allMatches = (this.calendars[this.activeTeamUpcoming] || []).filter(m => !m.score || !m.score.includes('-'));
+        const dammeTeamName = `Damme ${this.activeTeamUpcoming}`;
+        const matches = allMatches.filter(m =>
+            m.home_team.includes(dammeTeamName) || m.away_team.includes(dammeTeamName)
+        );
 
         const parseVTTLDate = (dStr) => {
-            if (!dStr || dStr === 'TBD') return new Date(8640000000000000); // Infinity
+            if (!dStr || dStr === 'TBD') return new Date(0);
             const parts = dStr.split(' ');
-            if (parts.length < 2) return new Date(8640000000000000);
+            if (parts.length < 2) return new Date(0);
             const [d, m, y] = parts[1].split('-');
             return new Date(2000 + parseInt(y), parseInt(m) - 1, parseInt(d));
         };
 
-        // Sort Old to New
         matches.sort((a, b) => parseVTTLDate(a.date) - parseVTTLDate(b.date));
 
         body.innerHTML = '';
         matches.forEach(m => {
             const tr = document.createElement('tr');
+
+            // Determine which team is the opponent
+            const isDammeHome = m.home_team.includes(dammeTeamName);
+            // const opponentTeam = isDammeHome ? m.away_team : m.home_team; // This variable is not used in the provided snippet, so I'll omit it.
+
+            // Make only the opponent team name clickable
+            const homeTeamHtml = isDammeHome ? m.home_team : `<span class="clickable-team" data-team="${m.home_team}">${m.home_team}</span>`;
+            const awayTeamHtml = isDammeHome ? `<span class="clickable-team" data-team="${m.away_team}">${m.away_team}</span>` : m.away_team;
+
             tr.innerHTML = `
                 <td>${m.date}</td>
                 <td>${m.time}</td>
-                <td>${m.home_team}</td>
-                <td>${m.away_team}</td>
-                <td class="score-cell">To Play</td>
+                <td>${homeTeamHtml}</td>
+                <td>${awayTeamHtml}</td>
+                <td>${m.score || '-'}</td>
             `;
+
+            // Add click handler only to opponent team name
+            tr.querySelectorAll('.clickable-team').forEach(span => {
+                span.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    this.showOpponentHistory(span.dataset.team);
+                });
+            });
+
             body.appendChild(tr);
         });
     }

@@ -704,3 +704,29 @@ footer a {
 .glass-section.collapsed {
     padding-bottom: 1.5rem;
 }
+
+/* Clickable Team Names */
+.clickable-team {
+    color: var(--accent-color);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: all 0.2s ease;
+}
+
+.clickable-team:hover {
+    color: #60a5fa;
+    text-decoration-style: solid;
+}
+
+/* Clickable Score Cells */
+.score-cell[style*="cursor: pointer"] {
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.score-cell[style*="cursor: pointer"]:hover {
+    background: var(--accent-color);
+    color: white;
+    transform: scale(1.05);
+}

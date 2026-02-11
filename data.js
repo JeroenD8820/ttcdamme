@@ -270,6 +270,33 @@ window.PLAYER_STATS = [
 window.TEAM_CALENDARS = {
   "A": [
     {
+      "match_id": "PWVLH01/011",
+      "home_team": "Lauwe B",
+      "away_team": "Zandvoorde D",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/012",
+      "home_team": "Mandelhoek A",
+      "away_team": "Kuurne A",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/013",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Meulebeke A",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH01/014",
       "home_team": "Torhout A",
       "away_team": "Damme A",
@@ -277,6 +304,69 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "12 - 04",
       "url": "https://competitie.vttl.be/wedstrijd/795043"
+    },
+    {
+      "match_id": "PWVLH01/015",
+      "home_team": "Oostende A",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/016",
+      "home_team": "Oostende B",
+      "away_team": "Gullegem D",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Mandelhoek A",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/012",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Torhout A",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/013",
+      "home_team": "Kuurne A",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/014",
+      "home_team": "Gullegem D",
+      "away_team": "Oostende A",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/015",
+      "home_team": "Meulebeke A",
+      "away_team": "Lauwe B",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH02/016",
@@ -288,6 +378,24 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/798017"
     },
     {
+      "match_id": "PWVLH03/011",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Zandvoorde D",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/012",
+      "home_team": "Torhout A",
+      "away_team": "Gullegem D",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH03/013",
       "home_team": "Oostende A",
       "away_team": "Damme A",
@@ -295,6 +403,42 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "11 - 05",
       "url": "https://competitie.vttl.be/wedstrijd/802241"
+    },
+    {
+      "match_id": "PWVLH03/014",
+      "home_team": "Lauwe B",
+      "away_team": "Kuurne A",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/015",
+      "home_team": "Oostende B",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/016",
+      "home_team": "Mandelhoek A",
+      "away_team": "Meulebeke A",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Kuurne A",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH04/012",
@@ -306,6 +450,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/806549"
     },
     {
+      "match_id": "PWVLH04/013",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Gullegem D",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/014",
+      "home_team": "Torhout A",
+      "away_team": "Oostende A",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/015",
+      "home_team": "Oostende B",
+      "away_team": "Lauwe B",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/016",
+      "home_team": "Mandelhoek A",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/011",
+      "home_team": "Gullegem D",
+      "away_team": "Zandvoorde D",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/012",
+      "home_team": "Kuurne A",
+      "away_team": "Meulebeke A",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH05/013",
       "home_team": "Damme A",
       "away_team": "Wielsbeke-spoti B",
@@ -313,6 +511,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "09 - 07",
       "url": "https://competitie.vttl.be/wedstrijd/810101"
+    },
+    {
+      "match_id": "PWVLH05/014",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Torhout A",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/015",
+      "home_team": "Oostende A",
+      "away_team": "Oostende B",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/016",
+      "home_team": "Lauwe B",
+      "away_team": "Mandelhoek A",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH06/011",
@@ -324,6 +549,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/813433"
     },
     {
+      "match_id": "PWVLH06/012",
+      "home_team": "Kuurne A",
+      "away_team": "Gullegem D",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/013",
+      "home_team": "Meulebeke A",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/014",
+      "home_team": "Torhout A",
+      "away_team": "Lauwe B",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/015",
+      "home_team": "Oostende A",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/016",
+      "home_team": "Oostende B",
+      "away_team": "Mandelhoek A",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/011",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Zandvoorde D",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH07/012",
       "home_team": "Damme A",
       "away_team": "Kuurne A",
@@ -331,6 +610,60 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "11 - 05",
       "url": "https://competitie.vttl.be/wedstrijd/817325"
+    },
+    {
+      "match_id": "PWVLH07/013",
+      "home_team": "Gullegem D",
+      "away_team": "Meulebeke A",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/014",
+      "home_team": "Mandelhoek A",
+      "away_team": "Torhout A",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/015",
+      "home_team": "Lauwe B",
+      "away_team": "Oostende A",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/016",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Oostende B",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Meulebeke A",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/012",
+      "home_team": "Kuurne A",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH08/013",
@@ -342,6 +675,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/821113"
     },
     {
+      "match_id": "PWVLH08/014",
+      "home_team": "Oostende B",
+      "away_team": "Torhout A",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/015",
+      "home_team": "Oostende A",
+      "away_team": "Mandelhoek A",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/016",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Lauwe B",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/011",
+      "home_team": "Torhout A",
+      "away_team": "Zandvoorde D",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/012",
+      "home_team": "Kuurne A",
+      "away_team": "Oostende A",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/013",
+      "home_team": "Meulebeke A",
+      "away_team": "Oostende B",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH09/014",
       "home_team": "Lauwe B",
       "away_team": "Damme A",
@@ -349,6 +736,51 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "11 - 05",
       "url": "https://competitie.vttl.be/wedstrijd/824769"
+    },
+    {
+      "match_id": "PWVLH09/015",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Mandelhoek A",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/016",
+      "home_team": "Gullegem D",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/011",
+      "home_team": "Oostende B",
+      "away_team": "Zandvoorde D",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/012",
+      "home_team": "Torhout A",
+      "away_team": "Kuurne A",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/013",
+      "home_team": "Oostende A",
+      "away_team": "Meulebeke A",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH10/014",
@@ -360,6 +792,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/828489"
     },
     {
+      "match_id": "PWVLH10/015",
+      "home_team": "Lauwe B",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/016",
+      "home_team": "Mandelhoek A",
+      "away_team": "Gullegem D",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/011",
+      "home_team": "Meulebeke A",
+      "away_team": "Torhout A",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/012",
+      "home_team": "Kuurne A",
+      "away_team": "Oostende B",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/013",
+      "home_team": "Zandvoorde D",
+      "away_team": "Oostende A",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/014",
+      "home_team": "Gullegem D",
+      "away_team": "Lauwe B",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/015",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH11/016",
       "home_team": "Damme A",
       "away_team": "Mandelhoek A",
@@ -367,6 +862,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "08 - 08",
       "url": "https://competitie.vttl.be/wedstrijd/831735"
+    },
+    {
+      "match_id": "PWVLH12/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Lauwe B",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/012",
+      "home_team": "Kuurne A",
+      "away_team": "Mandelhoek A",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/013",
+      "home_team": "Meulebeke A",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH12/014",
@@ -378,6 +900,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/835267"
     },
     {
+      "match_id": "PWVLH12/015",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Oostende A",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/016",
+      "home_team": "Gullegem D",
+      "away_team": "Oostende B",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/011",
+      "home_team": "Mandelhoek A",
+      "away_team": "Zandvoorde D",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/012",
+      "home_team": "Torhout A",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/013",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Kuurne A",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/014",
+      "home_team": "Oostende A",
+      "away_team": "Gullegem D",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/015",
+      "home_team": "Lauwe B",
+      "away_team": "Meulebeke A",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH13/016",
       "home_team": "Oostende B",
       "away_team": "Damme A",
@@ -385,6 +970,24 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "08 - 08",
       "url": "https://competitie.vttl.be/wedstrijd/838483"
+    },
+    {
+      "match_id": "PWVLH14/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/012",
+      "home_team": "Gullegem D",
+      "away_team": "Torhout A",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH14/013",
@@ -396,6 +999,42 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/842191"
     },
     {
+      "match_id": "PWVLH14/014",
+      "home_team": "Kuurne A",
+      "away_team": "Lauwe B",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/015",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Oostende B",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/016",
+      "home_team": "Meulebeke A",
+      "away_team": "Mandelhoek A",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/011",
+      "home_team": "Kuurne A",
+      "away_team": "Zandvoorde D",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH15/012",
       "home_team": "Damme A",
       "away_team": "Meulebeke A",
@@ -405,9 +1044,90 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/847305"
     },
     {
+      "match_id": "PWVLH15/013",
+      "home_team": "Gullegem D",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/014",
+      "home_team": "Oostende A",
+      "away_team": "Torhout A",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/015",
+      "home_team": "Lauwe B",
+      "away_team": "Oostende B",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/016",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Mandelhoek A",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Gullegem D",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/012",
+      "home_team": "Meulebeke A",
+      "away_team": "Kuurne A",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH16/013",
       "home_team": "Wielsbeke-spoti B",
       "away_team": "Damme A",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/014",
+      "home_team": "Torhout A",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/015",
+      "home_team": "Oostende B",
+      "away_team": "Oostende A",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/016",
+      "home_team": "Mandelhoek A",
+      "away_team": "Lauwe B",
       "date": "Za 14-02-26",
       "time": "19:00",
       "score": "",
@@ -423,10 +1143,118 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH17/012",
+      "home_team": "Gullegem D",
+      "away_team": "Kuurne A",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/013",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Meulebeke A",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/014",
+      "home_team": "Lauwe B",
+      "away_team": "Torhout A",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/015",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Oostende A",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/016",
+      "home_team": "Mandelhoek A",
+      "away_team": "Oostende B",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH18/012",
       "home_team": "Kuurne A",
       "away_team": "Damme A",
       "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/013",
+      "home_team": "Meulebeke A",
+      "away_team": "Gullegem D",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/014",
+      "home_team": "Torhout A",
+      "away_team": "Mandelhoek A",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/015",
+      "home_team": "Oostende A",
+      "away_team": "Lauwe B",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/016",
+      "home_team": "Oostende B",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/011",
+      "home_team": "Meulebeke A",
+      "away_team": "Zandvoorde D",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/012",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Kuurne A",
+      "date": "Za 28-03-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -441,6 +1269,60 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH19/014",
+      "home_team": "Torhout A",
+      "away_team": "Oostende B",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/015",
+      "home_team": "Mandelhoek A",
+      "away_team": "Oostende A",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/016",
+      "home_team": "Lauwe B",
+      "away_team": "Oostduinkerke B",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Torhout A",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/012",
+      "home_team": "Oostende A",
+      "away_team": "Kuurne A",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/013",
+      "home_team": "Oostende B",
+      "away_team": "Meulebeke A",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH20/014",
       "home_team": "Damme A",
       "away_team": "Lauwe B",
@@ -450,10 +1332,118 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH20/015",
+      "home_team": "Mandelhoek A",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/016",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Gullegem D",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/011",
+      "home_team": "Zandvoorde D",
+      "away_team": "Oostende B",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/012",
+      "home_team": "Kuurne A",
+      "away_team": "Torhout A",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/013",
+      "home_team": "Meulebeke A",
+      "away_team": "Oostende A",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH21/014",
       "home_team": "Damme A",
       "away_team": "Oostduinkerke B",
       "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/015",
+      "home_team": "Wielsbeke-spoti B",
+      "away_team": "Lauwe B",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/016",
+      "home_team": "Gullegem D",
+      "away_team": "Mandelhoek A",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/011",
+      "home_team": "Torhout A",
+      "away_team": "Meulebeke A",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/012",
+      "home_team": "Oostende B",
+      "away_team": "Kuurne A",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/013",
+      "home_team": "Oostende A",
+      "away_team": "Zandvoorde D",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/014",
+      "home_team": "Lauwe B",
+      "away_team": "Gullegem D",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/015",
+      "home_team": "Oostduinkerke B",
+      "away_team": "Wielsbeke-spoti B",
+      "date": "Za 25-04-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -470,6 +1460,33 @@ window.TEAM_CALENDARS = {
   ],
   "B": [
     {
+      "match_id": "PWVLH01/061",
+      "home_team": "Gullegem G",
+      "away_team": "Zandvoorde H",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/062",
+      "home_team": "Mandelhoek D",
+      "away_team": "Tielt A",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/063",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Jabbeke C",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH01/064",
       "home_team": "Nieuwpoort B",
       "away_team": "Damme B",
@@ -477,6 +1494,69 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "11 - 05",
       "url": "https://competitie.vttl.be/wedstrijd/795229"
+    },
+    {
+      "match_id": "PWVLH01/065",
+      "home_team": "Oostende D",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/066",
+      "home_team": "Koekelare B",
+      "away_team": "Lauwe D",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Mandelhoek D",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/062",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/063",
+      "home_team": "Tielt A",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/064",
+      "home_team": "Lauwe D",
+      "away_team": "Oostende D",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/065",
+      "home_team": "Jabbeke C",
+      "away_team": "Gullegem G",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH02/066",
@@ -488,6 +1568,24 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/798585"
     },
     {
+      "match_id": "PWVLH03/061",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Zandvoorde H",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/062",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Lauwe D",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH03/063",
       "home_team": "Oostende D",
       "away_team": "Damme B",
@@ -495,6 +1593,42 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "15 - 01",
       "url": "https://competitie.vttl.be/wedstrijd/802351"
+    },
+    {
+      "match_id": "PWVLH03/064",
+      "home_team": "Gullegem G",
+      "away_team": "Tielt A",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/065",
+      "home_team": "Koekelare B",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/066",
+      "home_team": "Mandelhoek D",
+      "away_team": "Jabbeke C",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Tielt A",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH04/062",
@@ -506,6 +1640,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/806555"
     },
     {
+      "match_id": "PWVLH04/063",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Lauwe D",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/064",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Oostende D",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/065",
+      "home_team": "Koekelare B",
+      "away_team": "Gullegem G",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/066",
+      "home_team": "Mandelhoek D",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/061",
+      "home_team": "Lauwe D",
+      "away_team": "Zandvoorde H",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/062",
+      "home_team": "Tielt A",
+      "away_team": "Jabbeke C",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH05/063",
       "home_team": "Damme B",
       "away_team": "Wielsbeke-spoti F",
@@ -513,6 +1701,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "05 - 11",
       "url": "https://competitie.vttl.be/wedstrijd/810145"
+    },
+    {
+      "match_id": "PWVLH05/064",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/065",
+      "home_team": "Oostende D",
+      "away_team": "Koekelare B",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/066",
+      "home_team": "Gullegem G",
+      "away_team": "Mandelhoek D",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH06/061",
@@ -524,6 +1739,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/813017"
     },
     {
+      "match_id": "PWVLH06/062",
+      "home_team": "Tielt A",
+      "away_team": "Lauwe D",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/063",
+      "home_team": "Jabbeke C",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/064",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Gullegem G",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/065",
+      "home_team": "Oostende D",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/066",
+      "home_team": "Koekelare B",
+      "away_team": "Mandelhoek D",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/061",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Zandvoorde H",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH07/062",
       "home_team": "Damme B",
       "away_team": "Tielt A",
@@ -531,6 +1800,60 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "02 - 14",
       "url": "https://competitie.vttl.be/wedstrijd/817329"
+    },
+    {
+      "match_id": "PWVLH07/063",
+      "home_team": "Lauwe D",
+      "away_team": "Jabbeke C",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/064",
+      "home_team": "Mandelhoek D",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/065",
+      "home_team": "Gullegem G",
+      "away_team": "Oostende D",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/066",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Koekelare B",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Jabbeke C",
+      "date": "Za 15-11-25",
+      "time": "14:30 **",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/062",
+      "home_team": "Tielt A",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH08/063",
@@ -542,6 +1865,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/821131"
     },
     {
+      "match_id": "PWVLH08/064",
+      "home_team": "Koekelare B",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/065",
+      "home_team": "Oostende D",
+      "away_team": "Mandelhoek D",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/066",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Gullegem G",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/061",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Zandvoorde H",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/062",
+      "home_team": "Tielt A",
+      "away_team": "Oostende D",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/063",
+      "home_team": "Jabbeke C",
+      "away_team": "Koekelare B",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH09/064",
       "home_team": "Gullegem G",
       "away_team": "Damme B",
@@ -549,6 +1926,51 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "12 - 04",
       "url": "https://competitie.vttl.be/wedstrijd/824833"
+    },
+    {
+      "match_id": "PWVLH09/065",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Mandelhoek D",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/066",
+      "home_team": "Lauwe D",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/061",
+      "home_team": "Koekelare B",
+      "away_team": "Zandvoorde H",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/062",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Tielt A",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/063",
+      "home_team": "Oostende D",
+      "away_team": "Jabbeke C",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH10/064",
@@ -560,6 +1982,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/828449"
     },
     {
+      "match_id": "PWVLH10/065",
+      "home_team": "Gullegem G",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/066",
+      "home_team": "Mandelhoek D",
+      "away_team": "Lauwe D",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/061",
+      "home_team": "Jabbeke C",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/062",
+      "home_team": "Tielt A",
+      "away_team": "Koekelare B",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/063",
+      "home_team": "Zandvoorde H",
+      "away_team": "Oostende D",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/064",
+      "home_team": "Lauwe D",
+      "away_team": "Gullegem G",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/065",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH11/066",
       "home_team": "Damme B",
       "away_team": "Mandelhoek D",
@@ -567,6 +2052,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "15 - 01",
       "url": "https://competitie.vttl.be/wedstrijd/831743"
+    },
+    {
+      "match_id": "PWVLH12/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Gullegem G",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/062",
+      "home_team": "Tielt A",
+      "away_team": "Mandelhoek D",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/063",
+      "home_team": "Jabbeke C",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH12/064",
@@ -578,6 +2090,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/835321"
     },
     {
+      "match_id": "PWVLH12/065",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Oostende D",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/066",
+      "home_team": "Lauwe D",
+      "away_team": "Koekelare B",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/061",
+      "home_team": "Mandelhoek D",
+      "away_team": "Zandvoorde H",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/062",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/063",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Tielt A",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/064",
+      "home_team": "Oostende D",
+      "away_team": "Lauwe D",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/065",
+      "home_team": "Gullegem G",
+      "away_team": "Jabbeke C",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH13/066",
       "home_team": "Koekelare B",
       "away_team": "Damme B",
@@ -585,6 +2160,24 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "10 - 06",
       "url": "https://competitie.vttl.be/wedstrijd/838631"
+    },
+    {
+      "match_id": "PWVLH14/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/062",
+      "home_team": "Lauwe D",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH14/063",
@@ -596,6 +2189,42 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/842195"
     },
     {
+      "match_id": "PWVLH14/064",
+      "home_team": "Tielt A",
+      "away_team": "Gullegem G",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/065",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Koekelare B",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/066",
+      "home_team": "Jabbeke C",
+      "away_team": "Mandelhoek D",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/061",
+      "home_team": "Tielt A",
+      "away_team": "Zandvoorde H",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH15/062",
       "home_team": "Damme B",
       "away_team": "Jabbeke C",
@@ -605,9 +2234,90 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/847347"
     },
     {
+      "match_id": "PWVLH15/063",
+      "home_team": "Lauwe D",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/064",
+      "home_team": "Oostende D",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/065",
+      "home_team": "Gullegem G",
+      "away_team": "Koekelare B",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/066",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Mandelhoek D",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Lauwe D",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/062",
+      "home_team": "Jabbeke C",
+      "away_team": "Tielt A",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH16/063",
       "home_team": "Wielsbeke-spoti F",
       "away_team": "Damme B",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/064",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/065",
+      "home_team": "Koekelare B",
+      "away_team": "Oostende D",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/066",
+      "home_team": "Mandelhoek D",
+      "away_team": "Gullegem G",
       "date": "Za 14-02-26",
       "time": "19:00",
       "score": "",
@@ -623,10 +2333,118 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH17/062",
+      "home_team": "Lauwe D",
+      "away_team": "Tielt A",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/063",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Jabbeke C",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/064",
+      "home_team": "Gullegem G",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/065",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Oostende D",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/066",
+      "home_team": "Mandelhoek D",
+      "away_team": "Koekelare B",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 14-03-26",
+      "time": "14:30 **",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH18/062",
       "home_team": "Tielt A",
       "away_team": "Damme B",
       "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/063",
+      "home_team": "Jabbeke C",
+      "away_team": "Lauwe D",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/064",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Mandelhoek D",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/065",
+      "home_team": "Oostende D",
+      "away_team": "Gullegem G",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/066",
+      "home_team": "Koekelare B",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/061",
+      "home_team": "Jabbeke C",
+      "away_team": "Zandvoorde H",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/062",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Tielt A",
+      "date": "Za 28-03-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -641,6 +2459,60 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH19/064",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Koekelare B",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/065",
+      "home_team": "Mandelhoek D",
+      "away_team": "Oostende D",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/066",
+      "home_team": "Gullegem G",
+      "away_team": "Knokke-Heist A",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 04-04-26",
+      "time": "14:30 **",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/062",
+      "home_team": "Oostende D",
+      "away_team": "Tielt A",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/063",
+      "home_team": "Koekelare B",
+      "away_team": "Jabbeke C",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH20/064",
       "home_team": "Damme B",
       "away_team": "Gullegem G",
@@ -650,10 +2522,118 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH20/065",
+      "home_team": "Mandelhoek D",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/066",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Lauwe D",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/061",
+      "home_team": "Zandvoorde H",
+      "away_team": "Koekelare B",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/062",
+      "home_team": "Tielt A",
+      "away_team": "Nieuwpoort B",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/063",
+      "home_team": "Jabbeke C",
+      "away_team": "Oostende D",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH21/064",
       "home_team": "Damme B",
       "away_team": "Knokke-Heist A",
       "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/065",
+      "home_team": "Wielsbeke-spoti F",
+      "away_team": "Gullegem G",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/066",
+      "home_team": "Lauwe D",
+      "away_team": "Mandelhoek D",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/061",
+      "home_team": "Nieuwpoort B",
+      "away_team": "Jabbeke C",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/062",
+      "home_team": "Koekelare B",
+      "away_team": "Tielt A",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/063",
+      "home_team": "Oostende D",
+      "away_team": "Zandvoorde H",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/064",
+      "home_team": "Gullegem G",
+      "away_team": "Lauwe D",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/065",
+      "home_team": "Knokke-Heist A",
+      "away_team": "Wielsbeke-spoti F",
+      "date": "Za 25-04-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -670,6 +2650,33 @@ window.TEAM_CALENDARS = {
   ],
   "C": [
     {
+      "match_id": "PWVLH01/081",
+      "home_team": "Wenduine B",
+      "away_team": "Oostkamp C",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/082",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Zandvoorde I",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/083",
+      "home_team": "Brugge E",
+      "away_team": "Jabbeke D",
+      "date": "Za 13-09-25",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH01/084",
       "home_team": "Torhout D",
       "away_team": "Damme C",
@@ -677,6 +2684,69 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "16 - 00",
       "url": "https://competitie.vttl.be/wedstrijd/795053"
+    },
+    {
+      "match_id": "PWVLH01/085",
+      "home_team": "Oostende H",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 13-09-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/086",
+      "home_team": "Koekelare D",
+      "away_team": "Zonnebeke E",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/082",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Torhout D",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/083",
+      "home_team": "Zandvoorde I",
+      "away_team": "Brugge E",
+      "date": "Za 20-09-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/084",
+      "home_team": "Zonnebeke E",
+      "away_team": "Oostende H",
+      "date": "Za 20-09-25",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/085",
+      "home_team": "Jabbeke D",
+      "away_team": "Wenduine B",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH02/086",
@@ -688,6 +2758,24 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/798587"
     },
     {
+      "match_id": "PWVLH03/081",
+      "home_team": "Brugge E",
+      "away_team": "Oostkamp C",
+      "date": "Za 27-09-25",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/082",
+      "home_team": "Torhout D",
+      "away_team": "Zonnebeke E",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH03/083",
       "home_team": "Oostende H",
       "away_team": "Damme C",
@@ -695,6 +2783,42 @@ window.TEAM_CALENDARS = {
       "time": "14:30",
       "score": "05 - 11",
       "url": "https://competitie.vttl.be/wedstrijd/801755"
+    },
+    {
+      "match_id": "PWVLH03/084",
+      "home_team": "Wenduine B",
+      "away_team": "Zandvoorde I",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/085",
+      "home_team": "Koekelare D",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/086",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Jabbeke D",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Zandvoorde I",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH04/082",
@@ -706,6 +2830,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/806561"
     },
     {
+      "match_id": "PWVLH04/083",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Zonnebeke E",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/084",
+      "home_team": "Torhout D",
+      "away_team": "Oostende H",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/085",
+      "home_team": "Koekelare D",
+      "away_team": "Wenduine B",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/086",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Brugge E",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/081",
+      "home_team": "Zonnebeke E",
+      "away_team": "Oostkamp C",
+      "date": "Za 18-10-25",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Jabbeke D",
+      "date": "Za 18-10-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH05/083",
       "home_team": "Damme C",
       "away_team": "Wielsbeke-spoti G",
@@ -713,6 +2891,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "04 - 12",
       "url": "https://competitie.vttl.be/wedstrijd/810159"
+    },
+    {
+      "match_id": "PWVLH05/084",
+      "home_team": "Brugge E",
+      "away_team": "Torhout D",
+      "date": "Za 18-10-25",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/085",
+      "home_team": "Oostende H",
+      "away_team": "Koekelare D",
+      "date": "Za 18-10-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/086",
+      "home_team": "Wenduine B",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH06/081",
@@ -724,6 +2929,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/813585"
     },
     {
+      "match_id": "PWVLH06/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Zonnebeke E",
+      "date": "Za 25-10-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/083",
+      "home_team": "Jabbeke D",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/084",
+      "home_team": "Torhout D",
+      "away_team": "Wenduine B",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/085",
+      "home_team": "Oostende H",
+      "away_team": "Brugge E",
+      "date": "Za 25-10-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/086",
+      "home_team": "Koekelare D",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/081",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Oostkamp C",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH07/082",
       "home_team": "Damme C",
       "away_team": "Zandvoorde I",
@@ -731,6 +2990,60 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "03 - 13",
       "url": "https://competitie.vttl.be/wedstrijd/817333"
+    },
+    {
+      "match_id": "PWVLH07/083",
+      "home_team": "Zonnebeke E",
+      "away_team": "Jabbeke D",
+      "date": "Za 08-11-25",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/084",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Torhout D",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/085",
+      "home_team": "Wenduine B",
+      "away_team": "Oostende H",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/086",
+      "home_team": "Brugge E",
+      "away_team": "Koekelare D",
+      "date": "Za 08-11-25",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Jabbeke D",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 15-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH08/083",
@@ -742,6 +3055,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/821125"
     },
     {
+      "match_id": "PWVLH08/084",
+      "home_team": "Koekelare D",
+      "away_team": "Torhout D",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/085",
+      "home_team": "Oostende H",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 15-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/086",
+      "home_team": "Brugge E",
+      "away_team": "Wenduine B",
+      "date": "Za 15-11-25",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/081",
+      "home_team": "Torhout D",
+      "away_team": "Oostkamp C",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Oostende H",
+      "date": "Za 22-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/083",
+      "home_team": "Jabbeke D",
+      "away_team": "Koekelare D",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH09/084",
       "home_team": "Wenduine B",
       "away_team": "Damme C",
@@ -749,6 +3116,51 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "16 - 00",
       "url": "https://competitie.vttl.be/wedstrijd/824607"
+    },
+    {
+      "match_id": "PWVLH09/085",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/086",
+      "home_team": "Zonnebeke E",
+      "away_team": "Brugge E",
+      "date": "Za 22-11-25",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/081",
+      "home_team": "Koekelare D",
+      "away_team": "Oostkamp C",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/082",
+      "home_team": "Torhout D",
+      "away_team": "Zandvoorde I",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/083",
+      "home_team": "Oostende H",
+      "away_team": "Jabbeke D",
+      "date": "Za 29-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH10/084",
@@ -760,6 +3172,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/828019"
     },
     {
+      "match_id": "PWVLH10/085",
+      "home_team": "Wenduine B",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/086",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Zonnebeke E",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/081",
+      "home_team": "Jabbeke D",
+      "away_team": "Torhout D",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Koekelare D",
+      "date": "Za 06-12-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/083",
+      "home_team": "Oostkamp C",
+      "away_team": "Oostende H",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/084",
+      "home_team": "Zonnebeke E",
+      "away_team": "Wenduine B",
+      "date": "Za 06-12-25",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/085",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Brugge E",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH11/086",
       "home_team": "Damme C",
       "away_team": "Oostduinkerke F",
@@ -767,6 +3242,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "12 - 04",
       "url": "https://competitie.vttl.be/wedstrijd/831895"
+    },
+    {
+      "match_id": "PWVLH12/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Wenduine B",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 10-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/083",
+      "home_team": "Jabbeke D",
+      "away_team": "Brugge E",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH12/084",
@@ -778,6 +3280,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/835305"
     },
     {
+      "match_id": "PWVLH12/085",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Oostende H",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/086",
+      "home_team": "Zonnebeke E",
+      "away_team": "Koekelare D",
+      "date": "Za 10-01-26",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/081",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Oostkamp C",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/082",
+      "home_team": "Torhout D",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/083",
+      "home_team": "Brugge E",
+      "away_team": "Zandvoorde I",
+      "date": "Za 17-01-26",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/084",
+      "home_team": "Oostende H",
+      "away_team": "Zonnebeke E",
+      "date": "Za 17-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/085",
+      "home_team": "Wenduine B",
+      "away_team": "Jabbeke D",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH13/086",
       "home_team": "Koekelare D",
       "away_team": "Damme C",
@@ -785,6 +3350,24 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "07 - 09",
       "url": "https://competitie.vttl.be/wedstrijd/838751"
+    },
+    {
+      "match_id": "PWVLH14/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Brugge E",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/082",
+      "home_team": "Zonnebeke E",
+      "away_team": "Torhout D",
+      "date": "Za 24-01-26",
+      "time": "14:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH14/083",
@@ -796,6 +3379,42 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/842427"
     },
     {
+      "match_id": "PWVLH14/084",
+      "home_team": "Zandvoorde I",
+      "away_team": "Wenduine B",
+      "date": "Za 24-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/085",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Koekelare D",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/086",
+      "home_team": "Jabbeke D",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/081",
+      "home_team": "Zandvoorde I",
+      "away_team": "Oostkamp C",
+      "date": "Za 07-02-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH15/082",
       "home_team": "Damme C",
       "away_team": "Jabbeke D",
@@ -805,9 +3424,90 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/847375"
     },
     {
+      "match_id": "PWVLH15/083",
+      "home_team": "Zonnebeke E",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 07-02-26",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/084",
+      "home_team": "Oostende H",
+      "away_team": "Torhout D",
+      "date": "Za 07-02-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/085",
+      "home_team": "Wenduine B",
+      "away_team": "Koekelare D",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/086",
+      "home_team": "Brugge E",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 07-02-26",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Zonnebeke E",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/082",
+      "home_team": "Jabbeke D",
+      "away_team": "Zandvoorde I",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH16/083",
       "home_team": "Wielsbeke-spoti G",
       "away_team": "Damme C",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/084",
+      "home_team": "Torhout D",
+      "away_team": "Brugge E",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/085",
+      "home_team": "Koekelare D",
+      "away_team": "Oostende H",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/086",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Wenduine B",
       "date": "Za 14-02-26",
       "time": "19:00",
       "score": "",
@@ -823,11 +3523,119 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH17/082",
+      "home_team": "Zonnebeke E",
+      "away_team": "Zandvoorde I",
+      "date": "Za 07-03-26",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/083",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Jabbeke D",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/084",
+      "home_team": "Wenduine B",
+      "away_team": "Torhout D",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/085",
+      "home_team": "Brugge E",
+      "away_team": "Oostende H",
+      "date": "Za 07-03-26",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/086",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Koekelare D",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH18/082",
       "home_team": "Zandvoorde I",
       "away_team": "Damme C",
       "date": "Za 14-03-26",
       "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/083",
+      "home_team": "Jabbeke D",
+      "away_team": "Zonnebeke E",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/084",
+      "home_team": "Torhout D",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/085",
+      "home_team": "Oostende H",
+      "away_team": "Wenduine B",
+      "date": "Za 14-03-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/086",
+      "home_team": "Koekelare D",
+      "away_team": "Brugge E",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/081",
+      "home_team": "Jabbeke D",
+      "away_team": "Oostkamp C",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/082",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Zandvoorde I",
+      "date": "Za 28-03-26",
+      "time": "19:00",
       "score": "",
       "url": null
     },
@@ -841,10 +3649,109 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH19/084",
+      "home_team": "Torhout D",
+      "away_team": "Koekelare D",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/085",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Oostende H",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/086",
+      "home_team": "Wenduine B",
+      "away_team": "Brugge E",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Torhout D",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/082",
+      "home_team": "Oostende H",
+      "away_team": "Zandvoorde I",
+      "date": "Za 04-04-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/083",
+      "home_team": "Koekelare D",
+      "away_team": "Jabbeke D",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH20/084",
       "home_team": "Damme C",
       "away_team": "Wenduine B",
       "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/085",
+      "home_team": "Oostduinkerke F",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/086",
+      "home_team": "Brugge E",
+      "away_team": "Zonnebeke E",
+      "date": "Za 04-04-26",
+      "time": "15:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/081",
+      "home_team": "Oostkamp C",
+      "away_team": "Koekelare D",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/082",
+      "home_team": "Zandvoorde I",
+      "away_team": "Torhout D",
+      "date": "Za 18-04-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/083",
+      "home_team": "Jabbeke D",
+      "away_team": "Oostende H",
+      "date": "Za 18-04-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -855,6 +3762,69 @@ window.TEAM_CALENDARS = {
       "away_team": "Brugge E",
       "date": "Za 18-04-26",
       "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/085",
+      "home_team": "Wielsbeke-spoti G",
+      "away_team": "Wenduine B",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/086",
+      "home_team": "Zonnebeke E",
+      "away_team": "Oostduinkerke F",
+      "date": "Za 18-04-26",
+      "time": "14:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/081",
+      "home_team": "Torhout D",
+      "away_team": "Jabbeke D",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/082",
+      "home_team": "Koekelare D",
+      "away_team": "Zandvoorde I",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/083",
+      "home_team": "Oostende H",
+      "away_team": "Oostkamp C",
+      "date": "Za 25-04-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/084",
+      "home_team": "Wenduine B",
+      "away_team": "Zonnebeke E",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/085",
+      "home_team": "Brugge E",
+      "away_team": "Wielsbeke-spoti G",
+      "date": "Za 25-04-26",
+      "time": "15:00",
       "score": "",
       "url": null
     },
@@ -870,6 +3840,33 @@ window.TEAM_CALENDARS = {
   ],
   "D": [
     {
+      "match_id": "PWVLH01/071",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Oostkamp B",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/072",
+      "home_team": "Oostduinkerke E",
+      "away_team": "De Woudpalet C",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/073",
+      "home_team": "Brugge D",
+      "away_team": "Meulebeke D",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH01/074",
       "home_team": "Torhout E",
       "away_team": "Damme D",
@@ -877,6 +3874,69 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "16 - 00",
       "url": "https://competitie.vttl.be/wedstrijd/795059"
+    },
+    {
+      "match_id": "PWVLH01/075",
+      "home_team": "Bredene A",
+      "away_team": "Zandvoorde J",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH01/076",
+      "home_team": "Koekelare E",
+      "away_team": "Oostende G",
+      "date": "Za 13-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/072",
+      "home_team": "Zandvoorde J",
+      "away_team": "Torhout E",
+      "date": "Za 20-09-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/073",
+      "home_team": "De Woudpalet C",
+      "away_team": "Brugge D",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/074",
+      "home_team": "Oostende G",
+      "away_team": "Bredene A",
+      "date": "Za 20-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH02/075",
+      "home_team": "Meulebeke D",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 20-09-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH02/076",
@@ -888,6 +3948,24 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/798019"
     },
     {
+      "match_id": "PWVLH03/071",
+      "home_team": "Brugge D",
+      "away_team": "Oostkamp B",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/072",
+      "home_team": "Torhout E",
+      "away_team": "Oostende G",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH03/073",
       "home_team": "Bredene A",
       "away_team": "Damme D",
@@ -895,6 +3973,42 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "06 - 10",
       "url": "https://competitie.vttl.be/wedstrijd/802401"
+    },
+    {
+      "match_id": "PWVLH03/074",
+      "home_team": "Knokke-Heist B",
+      "away_team": "De Woudpalet C",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/075",
+      "home_team": "Koekelare E",
+      "away_team": "Zandvoorde J",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH03/076",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Meulebeke D",
+      "date": "Za 27-09-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/071",
+      "home_team": "Oostkamp B",
+      "away_team": "De Woudpalet C",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH04/072",
@@ -906,6 +4020,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/806089"
     },
     {
+      "match_id": "PWVLH04/073",
+      "home_team": "Zandvoorde J",
+      "away_team": "Oostende G",
+      "date": "Za 11-10-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/074",
+      "home_team": "Torhout E",
+      "away_team": "Bredene A",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/075",
+      "home_team": "Koekelare E",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH04/076",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Brugge D",
+      "date": "Za 11-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/071",
+      "home_team": "Oostende G",
+      "away_team": "Oostkamp B",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Meulebeke D",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH05/073",
       "home_team": "Damme D",
       "away_team": "Zandvoorde J",
@@ -913,6 +4081,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "12 - 04",
       "url": "https://competitie.vttl.be/wedstrijd/810167"
+    },
+    {
+      "match_id": "PWVLH05/074",
+      "home_team": "Brugge D",
+      "away_team": "Torhout E",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/075",
+      "home_team": "Bredene A",
+      "away_team": "Koekelare E",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH05/076",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 18-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH06/071",
@@ -924,6 +4119,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/813605"
     },
     {
+      "match_id": "PWVLH06/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Oostende G",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/073",
+      "home_team": "Meulebeke D",
+      "away_team": "Zandvoorde J",
+      "date": "Za 25-10-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/074",
+      "home_team": "Torhout E",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/075",
+      "home_team": "Bredene A",
+      "away_team": "Brugge D",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH06/076",
+      "home_team": "Koekelare E",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 25-10-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/071",
+      "home_team": "Zandvoorde J",
+      "away_team": "Oostkamp B",
+      "date": "Za 08-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH07/072",
       "home_team": "Damme D",
       "away_team": "De Woudpalet C",
@@ -931,6 +4180,60 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "07 - 09",
       "url": "https://competitie.vttl.be/wedstrijd/817545"
+    },
+    {
+      "match_id": "PWVLH07/073",
+      "home_team": "Oostende G",
+      "away_team": "Meulebeke D",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/074",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Torhout E",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/075",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Bredene A",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH07/076",
+      "home_team": "Brugge D",
+      "away_team": "Koekelare E",
+      "date": "Za 08-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Meulebeke D",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Zandvoorde J",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH08/073",
@@ -942,6 +4245,60 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/821171"
     },
     {
+      "match_id": "PWVLH08/074",
+      "home_team": "Koekelare E",
+      "away_team": "Torhout E",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/075",
+      "home_team": "Bredene A",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH08/076",
+      "home_team": "Brugge D",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 15-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/071",
+      "home_team": "Torhout E",
+      "away_team": "Oostkamp B",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Bredene A",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/073",
+      "home_team": "Meulebeke D",
+      "away_team": "Koekelare E",
+      "date": "Za 22-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH09/074",
       "home_team": "Knokke-Heist B",
       "away_team": "Damme D",
@@ -949,6 +4306,51 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "07 - 09",
       "url": "https://competitie.vttl.be/wedstrijd/824821"
+    },
+    {
+      "match_id": "PWVLH09/075",
+      "home_team": "Zandvoorde J",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 22-11-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH09/076",
+      "home_team": "Oostende G",
+      "away_team": "Brugge D",
+      "date": "Za 22-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/071",
+      "home_team": "Koekelare E",
+      "away_team": "Oostkamp B",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/072",
+      "home_team": "Torhout E",
+      "away_team": "De Woudpalet C",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/073",
+      "home_team": "Bredene A",
+      "away_team": "Meulebeke D",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH10/074",
@@ -960,6 +4362,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/828487"
     },
     {
+      "match_id": "PWVLH10/075",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Zandvoorde J",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH10/076",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Oostende G",
+      "date": "Za 29-11-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/071",
+      "home_team": "Meulebeke D",
+      "away_team": "Torhout E",
+      "date": "Za 06-12-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Koekelare E",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/073",
+      "home_team": "Oostkamp B",
+      "away_team": "Bredene A",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/074",
+      "home_team": "Oostende G",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 06-12-25",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH11/075",
+      "home_team": "Zandvoorde J",
+      "away_team": "Brugge D",
+      "date": "Za 06-12-25",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH11/076",
       "home_team": "Damme D",
       "away_team": "Oostduinkerke E",
@@ -967,6 +4432,33 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "03 - 13",
       "url": "https://competitie.vttl.be/wedstrijd/831899"
+    },
+    {
+      "match_id": "PWVLH12/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/073",
+      "home_team": "Meulebeke D",
+      "away_team": "Brugge D",
+      "date": "Za 10-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH12/074",
@@ -978,6 +4470,69 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/835311"
     },
     {
+      "match_id": "PWVLH12/075",
+      "home_team": "Zandvoorde J",
+      "away_team": "Bredene A",
+      "date": "Za 10-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH12/076",
+      "home_team": "Oostende G",
+      "away_team": "Koekelare E",
+      "date": "Za 10-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/071",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Oostkamp B",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/072",
+      "home_team": "Torhout E",
+      "away_team": "Zandvoorde J",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/073",
+      "home_team": "Brugge D",
+      "away_team": "De Woudpalet C",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/074",
+      "home_team": "Bredene A",
+      "away_team": "Oostende G",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH13/075",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Meulebeke D",
+      "date": "Za 17-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH13/076",
       "home_team": "Koekelare E",
       "away_team": "Damme D",
@@ -985,6 +4540,24 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "01 - 15",
       "url": "https://competitie.vttl.be/wedstrijd/838627"
+    },
+    {
+      "match_id": "PWVLH14/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Brugge D",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/072",
+      "home_team": "Oostende G",
+      "away_team": "Torhout E",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH14/073",
@@ -996,6 +4569,42 @@ window.TEAM_CALENDARS = {
       "url": "https://competitie.vttl.be/wedstrijd/842413"
     },
     {
+      "match_id": "PWVLH14/074",
+      "home_team": "De Woudpalet C",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 24-01-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/075",
+      "home_team": "Zandvoorde J",
+      "away_team": "Koekelare E",
+      "date": "Za 24-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH14/076",
+      "home_team": "Meulebeke D",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 24-01-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/071",
+      "home_team": "De Woudpalet C",
+      "away_team": "Oostkamp B",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH15/072",
       "home_team": "Damme D",
       "away_team": "Meulebeke D",
@@ -1003,6 +4612,60 @@ window.TEAM_CALENDARS = {
       "time": "19:00",
       "score": "06 - 10",
       "url": "https://competitie.vttl.be/wedstrijd/847387"
+    },
+    {
+      "match_id": "PWVLH15/073",
+      "home_team": "Oostende G",
+      "away_team": "Zandvoorde J",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/074",
+      "home_team": "Bredene A",
+      "away_team": "Torhout E",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/075",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Koekelare E",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH15/076",
+      "home_team": "Brugge D",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 07-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Oostende G",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/072",
+      "home_team": "Meulebeke D",
+      "away_team": "De Woudpalet C",
+      "date": "Za 14-02-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
     },
     {
       "match_id": "PWVLH16/073",
@@ -1014,10 +4677,91 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH16/074",
+      "home_team": "Torhout E",
+      "away_team": "Brugge D",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/075",
+      "home_team": "Koekelare E",
+      "away_team": "Bredene A",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH16/076",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 14-02-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH17/071",
       "home_team": "Damme D",
       "away_team": "Oostkamp B",
       "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/072",
+      "home_team": "Oostende G",
+      "away_team": "De Woudpalet C",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/073",
+      "home_team": "Zandvoorde J",
+      "away_team": "Meulebeke D",
+      "date": "Za 07-03-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/074",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Torhout E",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/075",
+      "home_team": "Brugge D",
+      "away_team": "Bredene A",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH17/076",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Koekelare E",
+      "date": "Za 07-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Zandvoorde J",
+      "date": "Za 14-03-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -1032,10 +4776,118 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH18/073",
+      "home_team": "Meulebeke D",
+      "away_team": "Oostende G",
+      "date": "Za 14-03-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/074",
+      "home_team": "Torhout E",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/075",
+      "home_team": "Bredene A",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH18/076",
+      "home_team": "Koekelare E",
+      "away_team": "Brugge D",
+      "date": "Za 14-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/071",
+      "home_team": "Meulebeke D",
+      "away_team": "Oostkamp B",
+      "date": "Za 28-03-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/072",
+      "home_team": "Zandvoorde J",
+      "away_team": "De Woudpalet C",
+      "date": "Za 28-03-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH19/073",
       "home_team": "Oostende G",
       "away_team": "Damme D",
       "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/074",
+      "home_team": "Torhout E",
+      "away_team": "Koekelare E",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/075",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Bredene A",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH19/076",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Brugge D",
+      "date": "Za 28-03-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Torhout E",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/072",
+      "home_team": "Bredene A",
+      "away_team": "De Woudpalet C",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/073",
+      "home_team": "Koekelare E",
+      "away_team": "Meulebeke D",
+      "date": "Za 04-04-26",
       "time": "19:00",
       "score": "",
       "url": null
@@ -1050,10 +4902,118 @@ window.TEAM_CALENDARS = {
       "url": null
     },
     {
+      "match_id": "PWVLH20/075",
+      "home_team": "Oostduinkerke E",
+      "away_team": "Zandvoorde J",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH20/076",
+      "home_team": "Brugge D",
+      "away_team": "Oostende G",
+      "date": "Za 04-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/071",
+      "home_team": "Oostkamp B",
+      "away_team": "Koekelare E",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/072",
+      "home_team": "De Woudpalet C",
+      "away_team": "Torhout E",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/073",
+      "home_team": "Meulebeke D",
+      "away_team": "Bredene A",
+      "date": "Za 18-04-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
       "match_id": "PWVLH21/074",
       "home_team": "Damme D",
       "away_team": "Brugge D",
       "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/075",
+      "home_team": "Zandvoorde J",
+      "away_team": "Knokke-Heist B",
+      "date": "Za 18-04-26",
+      "time": "14:30",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH21/076",
+      "home_team": "Oostende G",
+      "away_team": "Oostduinkerke E",
+      "date": "Za 18-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/071",
+      "home_team": "Torhout E",
+      "away_team": "Meulebeke D",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/072",
+      "home_team": "Koekelare E",
+      "away_team": "De Woudpalet C",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/073",
+      "home_team": "Bredene A",
+      "away_team": "Oostkamp B",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/074",
+      "home_team": "Knokke-Heist B",
+      "away_team": "Oostende G",
+      "date": "Za 25-04-26",
+      "time": "19:00",
+      "score": "",
+      "url": null
+    },
+    {
+      "match_id": "PWVLH22/075",
+      "home_team": "Brugge D",
+      "away_team": "Zandvoorde J",
+      "date": "Za 25-04-26",
       "time": "19:00",
       "score": "",
       "url": null
