@@ -457,17 +457,18 @@ footer a {
 
 @media (max-width: 768px) {
     main {
-        margin: 2rem auto;
-        padding: 0 1rem;
+        margin: 1rem auto;
+        padding: 0 0.75rem;
     }
 
     header {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
+        padding: 1rem 0;
     }
 
     header h1 {
-        font-size: 2.2rem;
-        letter-spacing: -1px;
+        font-size: 1.8rem;
+        letter-spacing: -0.5px;
     }
 
     .club-id {
@@ -475,47 +476,245 @@ footer a {
         width: fit-content;
         margin-left: 0;
         margin-top: 0.5rem;
+        font-size: 0.85rem;
     }
 
     .glass-section {
-        padding: 1.5rem 1rem;
-        border-radius: 16px;
+        padding: 1rem 0.75rem;
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
     }
 
     .section-header h2 {
+        font-size: 1.3rem;
+        line-height: 1.3;
+    }
+
+    .toggle-icon {
+        font-size: 1rem;
+    }
+
+    /* Better table readability on mobile */
+    table {
+        font-size: 0.85rem;
+    }
+
+    th,
+    td {
+        padding: 0.6rem 0.4rem;
+        white-space: nowrap;
+    }
+
+    th {
+        font-size: 0.8rem;
+        position: sticky;
+        top: 0;
+        background: var(--glass-bg);
+        z-index: 10;
+    }
+
+    /* Make tables scroll horizontally */
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 0 -0.75rem;
+        padding: 0 0.75rem;
+    }
+
+    /* Larger touch targets for tabs */
+    .tab-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+        min-width: 80px;
+    }
+
+    /* Player cards more compact */
+    .player-card {
+        padding: 0.75rem;
+        gap: 0.75rem;
+    }
+
+    .player-name {
+        font-size: 1rem;
+    }
+
+    .player-elo {
+        font-size: 1.3rem;
+    }
+
+    .player-classification {
+        font-size: 0.75rem;
+    }
+
+    .player-stats {
+        gap: 0.5rem;
+    }
+
+    .stat-item {
+        font-size: 0.75rem;
+    }
+
+    /* Modal improvements */
+    .modal-content {
+        margin: 5% auto;
+        padding: 1rem;
+        width: 96%;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .modal-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .close-btn {
+        font-size: 2rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* Rankings grid more compact */
+    .rankings-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .ranking-card {
+        padding: 0.75rem;
+    }
+
+    .team-name {
+        font-size: 1rem;
+    }
+
+    .team-position {
+        font-size: 1.8rem;
+    }
+
+    .team-points {
+        font-size: 0.85rem;
+    }
+
+    /* Recent results more readable */
+    .recent-results-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .result-card {
+        padding: 0.75rem;
+    }
+
+    .result-teams {
+        font-size: 0.9rem;
+        gap: 0.3rem;
+    }
+
+    .result-score {
         font-size: 1.5rem;
     }
 
-    .modal-content {
-        margin: 10% auto;
-        padding: 1.5rem 1rem;
-        width: 95%;
+    .result-date {
+        font-size: 0.75rem;
     }
 
+    /* Hide navigation */
     .nav-links {
         display: none;
     }
 
+    /* Section header layout */
     .section-header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 1rem;
+        gap: 0.75rem;
     }
 
+    /* Controls full width */
     .controls {
         width: 100%;
         flex-direction: column;
+        gap: 0.5rem;
     }
 
     .glass-input,
     .glass-select {
         width: 100%;
+        font-size: 0.9rem;
+        padding: 0.6rem 0.75rem;
     }
 
+    /* Tabs scrollable */
     .tabs {
         width: 100%;
         overflow-x: auto;
         padding-bottom: 5px;
+        gap: 0.5rem;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Match detail improvements */
+    .match-details-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .match-teams-large {
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .overall-score {
+        font-size: 1.8rem;
+    }
+
+    /* Clickable elements larger touch targets */
+    .clickable-team {
+        padding: 0.2rem 0;
+        display: inline-block;
+    }
+
+    .score-cell[style*="cursor: pointer"] {
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding: 0.7rem 0.5rem;
+    }
+}
+
+/* Extra small screens (phones in portrait) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.1rem;
+    }
+
+    table {
+        font-size: 0.75rem;
+    }
+
+    th,
+    td {
+        padding: 0.5rem 0.3rem;
+    }
+
+    .tab-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        min-width: 70px;
+    }
+
+    .player-card {
+        padding: 0.6rem;
+    }
+
+    .player-name {
+        font-size: 0.9rem;
+    }
+
+    .player-elo {
+        font-size: 1.1rem;
     }
 }
 

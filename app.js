@@ -194,7 +194,14 @@ class Dashboard {
         const tabBtns = document.querySelectorAll('.tab-btn');
         const collapsibles = document.querySelectorAll('.collapsible-header');
 
-        searchInput.addEventListener('input', (e) => this.filterPlayers(e.target.value));
+        searchInput.addEventListener('input', (e) => {
+            // Auto-expand members section when user starts typing
+            const playersSection = document.getElementById('players');
+            if (e.target.value && playersSection.classList.contains('collapsed')) {
+                playersSection.classList.remove('collapsed');
+            }
+            this.filterPlayers(e.target.value);
+        });
         sortSelect.addEventListener('change', (e) => this.sortPlayers(e.target.value));
 
         closeBtns.forEach(btn => {
@@ -218,6 +225,12 @@ class Dashboard {
 
                 // Update active team based on section
                 const section = btn.closest('.glass-section');
+
+                // Auto-expand section if collapsed
+                if (section.classList.contains('collapsed')) {
+                    section.classList.remove('collapsed');
+                }
+
                 const btns = section.querySelectorAll('.tab-btn');
                 btns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
