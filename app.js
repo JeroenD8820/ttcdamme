@@ -21,12 +21,12 @@ class DataProvider {
 
             // Prepare players data
             const players = Array.isArray(statsRes) ? statsRes.map(p => ({
-                memberId: p.memberId,
-                frenoyId: p.frenoyId,
-                name: p.name,
-                classification: p.classification,
-                elo: p.elo,
-                relative: p.relative
+                memberId: p.memberId || '',
+                frenoyId: p.frenoyId || '',
+                name: p.name || '',
+                classification: p.classification || '',
+                elo: p.elo || 0,
+                relative: p.relative || 0
             })) : [];
 
             // Hardcoded basic rankings (kept consistent with current state)
@@ -251,13 +251,91 @@ class Dashboard {
                 section.classList.toggle('collapsed');
             });
         });
+
+        // --- Shared update logic for both refresh buttons ---
+        const triggerUpdate = async (btn) => {
+            const serverUrl = window.location.protocol === 'file:' ? 'http://localhost:5000' : '';
+            btn.disabled = true;
+            btn.classList.add('spinning');
+
+            // Keep both buttons in sync
+            const refreshBtn = document.getElementById('refresh-btn');
+            const syncFab = document.getElementById('sync-fab');
+            if (refreshBtn) { refreshBtn.disabled = true; refreshBtn.classList.add('spinning'); }
+            if (syncFab)    { syncFab.disabled = true;    syncFab.classList.add('spinning'); }
+
+            try {
+                const triggerRes = await fetch(`${serverUrl}/api/update`, {
+                    method: 'POST',
+                    signal: AbortSignal.timeout(3000)
+                });
+
+                if (!triggerRes.ok) throw new Error('Server fout');
+
+                this.showToast('⏳ Data ophalen van VTTL...', 'info', 60000);
+
+                let done = false;
+                let attempts = 0;
+                while (!done && attempts < 120) {
+                    await new Promise(r => setTimeout(r, 2000));
+                    attempts++;
+                    const statusRes = await fetch(`${serverUrl}/api/update/status`);
+                    const status = await statusRes.json();
+                    if (!status.running) {
+                        done = true;
+                        if (status.result && status.result.success) {
+                            this.showToast(`✅ Data bijgewerkt om ${status.result.timestamp}`, 'success');
+                            setTimeout(() => location.reload(), 1500);
+                        } else {
+                            const errLog = status.result && status.result.logs ? status.result.logs : [];
+                            // Zoek naar de lijn met '✗ FOUT' erin, of neem de laatste lijn, anders een standaardmelding
+                            let specificError = 'Onbekende fout';
+                            const errorLines = errLog.filter(l => l.includes('✗ FOUT'));
+                            if (errorLines.length > 0) {
+                                specificError = errorLines[errorLines.length - 1]; // Pak de laatste error
+                            } else if (errLog.length > 0) {
+                                specificError = errLog[errLog.length - 1];
+                            }
+                            // Kap af als het te lang is
+                            if (specificError.length > 50) specificError = specificError.substring(0, 50) + '...';
+                            
+                            this.showToast(`❌ Update mislukt: ${specificError}`, 'error', 6000);
+                            console.error('Update logs:', errLog.join('\n'));
+                        }
+                    }
+                }
+
+                if (!done) {
+                    this.showToast('⚠️ Timeout: update duurt te lang.', 'error');
+                }
+            } catch (e) {
+                this.showToast('🔄 Server niet actief - pagina herladen...', 'info', 2000);
+                setTimeout(() => location.reload(), 1500);
+            } finally {
+                if (refreshBtn) { refreshBtn.disabled = false; refreshBtn.classList.remove('spinning'); }
+                if (syncFab)    { syncFab.disabled = false;    syncFab.classList.remove('spinning'); }
+            }
+        };
+
+        // Refresh button (header, top right)
+        const refreshBtn = document.getElementById('refresh-btn');
+        if (refreshBtn) {
+            refreshBtn.addEventListener('click', () => triggerUpdate(refreshBtn));
+        }
+
+        // Sync FAB button (bottom of page)
+        const syncFab = document.getElementById('sync-fab');
+        if (syncFab) {
+            syncFab.addEventListener('click', () => triggerUpdate(syncFab));
+        }
+
     }
 
     filterPlayers(query) {
         const q = query.toLowerCase();
         this.filteredPlayers = this.allPlayers.filter(p =>
             p.name.toLowerCase().includes(q) ||
-            p.memberId.includes(q)
+            p.memberId.toLowerCase().includes(q)
         );
         this.renderPlayers();
     }
@@ -589,6 +667,40 @@ class Dashboard {
 
             body.appendChild(tr);
         });
+    }
+    showToast(message, type = 'info', duration = 4000) {
+        // Remove existing toast
+        const existing = document.getElementById('ttc-toast');
+        if (existing) existing.remove();
+
+        const toast = document.createElement('div');
+        toast.id = 'ttc-toast';
+        toast.textContent = message;
+        toast.style.cssText = `
+            position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+            background: ${type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : 'rgba(255,255,255,0.15)'};
+            color: white; padding: 12px 24px; border-radius: 12px;
+            backdrop-filter: blur(12px); font-size: 0.95rem; font-weight: 600;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3); z-index: 9999;
+            border: 1px solid rgba(255,255,255,0.2); white-space: nowrap;
+            animation: toastIn 0.3s ease;
+        `;
+
+        if (!document.getElementById('ttc-toast-style')) {
+            const style = document.createElement('style');
+            style.id = 'ttc-toast-style';
+            style.textContent = `
+                @keyframes toastIn { from { opacity:0; transform: translateX(-50%) translateY(20px); } to { opacity:1; transform: translateX(-50%) translateY(0); } }
+                .refresh-btn.spinning i { animation: spin 0.8s linear infinite; }
+                @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+            `;
+            document.head.appendChild(style);
+        }
+
+        document.body.appendChild(toast);
+        if (duration < 60000) {
+            setTimeout(() => toast.remove(), duration);
+        }
     }
 }
 

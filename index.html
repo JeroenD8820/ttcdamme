@@ -12,6 +12,7 @@
     <link rel="manifest" href="manifest.json">
     <title>TTC Damme - Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -37,8 +38,15 @@
 
     <main>
         <header>
-            <h1>Dashboard <span class="club-id">WVL158</span></h1>
-            <p>Live rangschikkingen en resultaten van de Vlaamse Tafeltennisliga.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h1>Dashboard <span class="club-id">WVL158</span></h1>
+                    <p>Live rangschikkingen en resultaten van de Vlaamse Tafeltennisliga.</p>
+                </div>
+                <button id="refresh-btn" class="refresh-btn" title="Ververs gegevens">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+            </div>
         </header>
 
         <section id="rankings" class="glass-section">
@@ -170,6 +178,14 @@
             </div>
         </section>
     </main>
+
+    <!-- Floating Sync Button -->
+    <div class="fab-container">
+        <button id="sync-fab" class="sync-fab" title="Gegevens synchroniseren met VTTL">
+            <i class="fas fa-sync-alt"></i>
+            <span>Synchroniseren</span>
+        </button>
+    </div>
 
     <footer>
         <p>&copy; 2026 TTC Damme - Data powered by <a href="https://competitie.vttl.be" target="_blank">VTTL</a></p>
