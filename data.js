@@ -19,7 +19,7 @@ window.PLAYER_STATS = [
     "name": "BART VANDERPLAETSE",
     "classification": "D4",
     "relative": -8,
-    "elo": 0,
+    "elo": 1217,
     "frenoyId": "41895"
   },
   {
@@ -40,7 +40,7 @@ window.PLAYER_STATS = [
     "name": "GERT-JAN MAHIEU",
     "classification": "C2",
     "relative": 13,
-    "elo": 0,
+    "elo": 1763,
     "frenoyId": "37490"
   },
   {
@@ -68,14 +68,14 @@ window.PLAYER_STATS = [
     "name": "JASPER MAHIEU",
     "classification": "B6",
     "relative": -8,
-    "elo": 0,
+    "elo": 2157,
     "frenoyId": "37491"
   },
   {
     "name": "JEAN-PIERRE DEFOUR",
     "classification": "E2",
     "relative": -23,
-    "elo": 0,
+    "elo": 678,
     "frenoyId": "11604"
   },
   {
@@ -96,7 +96,7 @@ window.PLAYER_STATS = [
     "name": "JEROEN CATTOOR",
     "classification": "E4",
     "relative": 3,
-    "elo": 0,
+    "elo": 769,
     "frenoyId": "37807"
   },
   {
@@ -124,14 +124,14 @@ window.PLAYER_STATS = [
     "name": "KURT D'HOORE",
     "classification": "E4",
     "relative": 15,
-    "elo": 0,
+    "elo": 821,
     "frenoyId": "77260"
   },
   {
     "name": "LUC MAHIEU",
     "classification": "E4",
     "relative": -1,
-    "elo": 0,
+    "elo": 627,
     "frenoyId": "41516"
   },
   {
@@ -152,7 +152,7 @@ window.PLAYER_STATS = [
     "name": "MICHIEL KEMPINCK",
     "classification": "C4",
     "relative": 32,
-    "elo": 0,
+    "elo": 1675,
     "frenoyId": "11497"
   },
   {
@@ -180,14 +180,14 @@ window.PLAYER_STATS = [
     "name": "PASCAL HUYBRECHS",
     "classification": "E2",
     "relative": 26,
-    "elo": 0,
+    "elo": 868,
     "frenoyId": "11557"
   },
   {
     "name": "REGINE PHARASYN",
     "classification": "E6",
     "relative": -3,
-    "elo": 0,
+    "elo": 421,
     "frenoyId": "11603"
   },
   {
@@ -201,7 +201,7 @@ window.PLAYER_STATS = [
     "name": "SARI BLONDEEL",
     "classification": "E2",
     "relative": -9,
-    "elo": 0,
+    "elo": 804,
     "frenoyId": "73688"
   },
   {
@@ -215,7 +215,7 @@ window.PLAYER_STATS = [
     "name": "WOUTER JANSSENS",
     "classification": "E6",
     "relative": 1,
-    "elo": 0,
+    "elo": 691,
     "frenoyId": "54442"
   }
 ];
