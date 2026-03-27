@@ -17,7 +17,7 @@
         "name": "BART VANDERPLAETSE",
         "classification": "D4",
         "relative": -8,
-        "elo": 1217,
+        "elo": 0,
         "frenoyId": "41895"
     },
     {
@@ -38,7 +38,7 @@
         "name": "GERT-JAN MAHIEU",
         "classification": "C2",
         "relative": 13,
-        "elo": 1763,
+        "elo": 0,
         "frenoyId": "37490"
     },
     {
@@ -66,14 +66,14 @@
         "name": "JASPER MAHIEU",
         "classification": "B6",
         "relative": -8,
-        "elo": 2157,
+        "elo": 0,
         "frenoyId": "37491"
     },
     {
         "name": "JEAN-PIERRE DEFOUR",
         "classification": "E2",
         "relative": -23,
-        "elo": 678,
+        "elo": 0,
         "frenoyId": "11604"
     },
     {
@@ -94,7 +94,7 @@
         "name": "JEROEN CATTOOR",
         "classification": "E4",
         "relative": 3,
-        "elo": 769,
+        "elo": 0,
         "frenoyId": "37807"
     },
     {
@@ -122,14 +122,14 @@
         "name": "KURT D'HOORE",
         "classification": "E4",
         "relative": 15,
-        "elo": 821,
+        "elo": 0,
         "frenoyId": "77260"
     },
     {
         "name": "LUC MAHIEU",
         "classification": "E4",
         "relative": -1,
-        "elo": 627,
+        "elo": 0,
         "frenoyId": "41516"
     },
     {
@@ -150,7 +150,7 @@
         "name": "MICHIEL KEMPINCK",
         "classification": "C4",
         "relative": 32,
-        "elo": 1675,
+        "elo": 0,
         "frenoyId": "11497"
     },
     {
@@ -178,14 +178,14 @@
         "name": "PASCAL HUYBRECHS",
         "classification": "E2",
         "relative": 26,
-        "elo": 868,
+        "elo": 0,
         "frenoyId": "11557"
     },
     {
         "name": "REGINE PHARASYN",
         "classification": "E6",
         "relative": -3,
-        "elo": 421,
+        "elo": 0,
         "frenoyId": "11603"
     },
     {
@@ -199,7 +199,7 @@
         "name": "SARI BLONDEEL",
         "classification": "E2",
         "relative": -9,
-        "elo": 804,
+        "elo": 0,
         "frenoyId": "73688"
     },
     {
@@ -213,7 +213,7 @@
         "name": "WOUTER JANSSENS",
         "classification": "E6",
         "relative": 1,
-        "elo": 691,
+        "elo": 0,
         "frenoyId": "54442"
     }
 ]
