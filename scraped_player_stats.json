@@ -16,7 +16,7 @@
     {
         "name": "BART VANDERPLAETSE",
         "classification": "D4",
-        "relative": -8,
+        "relative": -7,
         "elo": 1217,
         "frenoyId": "41895"
     },
@@ -30,14 +30,14 @@
     {
         "name": "DAVE IDE",
         "classification": "E6",
-        "relative": -4,
-        "elo": 389,
+        "relative": -3,
+        "elo": 386,
         "frenoyId": "96101"
     },
     {
         "name": "GERT-JAN MAHIEU",
         "classification": "C2",
-        "relative": 13,
+        "relative": 15,
         "elo": 1763,
         "frenoyId": "37490"
     },
@@ -79,14 +79,14 @@
     {
         "name": "JELLE PAREYN",
         "classification": "E4",
-        "relative": 11,
+        "relative": 10,
         "elo": 689,
         "frenoyId": "105563"
     },
     {
         "name": "JENTE PAREYN",
         "classification": "E0",
-        "relative": -20,
+        "relative": -21,
         "elo": 806,
         "frenoyId": "105565"
     },
@@ -100,8 +100,8 @@
     {
         "name": "JEROEN DOMBRECHT",
         "classification": "E4",
-        "relative": 13,
-        "elo": 802,
+        "relative": 14,
+        "elo": 813,
         "frenoyId": "81329"
     },
     {
@@ -121,15 +121,15 @@
     {
         "name": "KURT D'HOORE",
         "classification": "E4",
-        "relative": 15,
+        "relative": 16,
         "elo": 821,
         "frenoyId": "77260"
     },
     {
         "name": "LUC MAHIEU",
         "classification": "E4",
-        "relative": -1,
-        "elo": 627,
+        "relative": -2,
+        "elo": 616,
         "frenoyId": "41516"
     },
     {
@@ -149,14 +149,14 @@
     {
         "name": "MICHIEL KEMPINCK",
         "classification": "C4",
-        "relative": 32,
+        "relative": 31,
         "elo": 1675,
         "frenoyId": "11497"
     },
     {
         "name": "MILAN MORTIER",
         "classification": "E4",
-        "relative": 1,
+        "relative": 4,
         "elo": 726,
         "frenoyId": "96111"
     },
@@ -198,8 +198,8 @@
     {
         "name": "SARI BLONDEEL",
         "classification": "E2",
-        "relative": -9,
-        "elo": 804,
+        "relative": -11,
+        "elo": 815,
         "frenoyId": "73688"
     },
     {
