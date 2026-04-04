@@ -16,7 +16,7 @@
     {
         "name": "BART VANDERPLAETSE",
         "classification": "D4",
-        "relative": -7,
+        "relative": -13,
         "elo": 1253,
         "frenoyId": "41895"
     },
@@ -37,7 +37,7 @@
     {
         "name": "GERT-JAN MAHIEU",
         "classification": "C2",
-        "relative": 15,
+        "relative": 18,
         "elo": 1777,
         "frenoyId": "37490"
     },
@@ -72,7 +72,7 @@
     {
         "name": "JEAN-PIERRE DEFOUR",
         "classification": "E2",
-        "relative": -23,
+        "relative": -18,
         "elo": 678,
         "frenoyId": "11604"
     },
@@ -86,7 +86,7 @@
     {
         "name": "JENTE PAREYN",
         "classification": "E0",
-        "relative": -21,
+        "relative": -24,
         "elo": 789,
         "frenoyId": "105565"
     },
@@ -135,7 +135,7 @@
     {
         "name": "LUCAS DOMBRECHT",
         "classification": "E4",
-        "relative": 10,
+        "relative": 15,
         "elo": 868,
         "frenoyId": "103069"
     },
@@ -149,14 +149,14 @@
     {
         "name": "MICHIEL KEMPINCK",
         "classification": "C4",
-        "relative": 31,
+        "relative": 34,
         "elo": 1632,
         "frenoyId": "11497"
     },
     {
         "name": "MILAN MORTIER",
         "classification": "E4",
-        "relative": 4,
+        "relative": 8,
         "elo": 727,
         "frenoyId": "96111"
     },
@@ -177,7 +177,7 @@
     {
         "name": "PASCAL HUYBRECHS",
         "classification": "E2",
-        "relative": 26,
+        "relative": 27,
         "elo": 845,
         "frenoyId": "11557"
     },

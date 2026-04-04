@@ -12616,5 +12616,681 @@
                 "result_game": "13-3"
             }
         ]
+    },
+    "PWVLH20/014": {
+        "title": "Uitslagen Vlaamse Tafeltennisliga",
+        "home_players": [
+            {
+                "id": "512926",
+                "name": "JASPER MAHIEU * ^",
+                "classification": "B6",
+                "won": "3 / 3"
+            },
+            {
+                "id": "512925",
+                "name": "GERT-JAN MAHIEU",
+                "classification": "C2",
+                "won": "2 / 3"
+            },
+            {
+                "id": "500783",
+                "name": "MICHIEL KEMPINCK",
+                "classification": "C4",
+                "won": "1 / 3"
+            },
+            {
+                "id": "517743",
+                "name": "WOUTER JANSSENS",
+                "classification": "E6",
+                "won": "0 / 3"
+            }
+        ],
+        "away_players": [
+            {
+                "id": "514796",
+                "name": "BJORN BURGRAEVE *",
+                "classification": "C0",
+                "won": "2"
+            },
+            {
+                "id": "524340",
+                "name": "KAMIL WOJCIK",
+                "classification": "C0",
+                "won": "2"
+            },
+            {
+                "id": "504793",
+                "name": "GREGORY LOGIE",
+                "classification": "C2",
+                "won": "2"
+            },
+            {
+                "id": "500006",
+                "name": "OLIVIER GAILLET",
+                "classification": "C4",
+                "won": "FF"
+            }
+        ],
+        "games": [
+            {
+                "home_player": "W. JANSSENS",
+                "away_player": "K. WOJCIK",
+                "sets": "-1, -6, -7",
+                "result_sets": "0/3",
+                "result_game": "0-1"
+            },
+            {
+                "home_player": "M. KEMPINCK",
+                "away_player": "B. BURGRAEVE",
+                "sets": "5, -9, -6, -1",
+                "result_sets": "1/3",
+                "result_game": "0-2"
+            },
+            {
+                "home_player": "G.-J. MAHIEU",
+                "away_player": "O. GAILLET",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "1-2"
+            },
+            {
+                "home_player": "J. MAHIEU",
+                "away_player": "G. LOGIE",
+                "sets": "5, 3, 9",
+                "result_sets": "3/0",
+                "result_game": "2-2"
+            },
+            {
+                "home_player": "W. JANSSENS",
+                "away_player": "B. BURGRAEVE",
+                "sets": "-1, -3, -7",
+                "result_sets": "0/3",
+                "result_game": "2-3"
+            },
+            {
+                "home_player": "M. KEMPINCK",
+                "away_player": "K. WOJCIK",
+                "sets": "-13, 9, 5, 8",
+                "result_sets": "3/1",
+                "result_game": "3-3"
+            },
+            {
+                "home_player": "G.-J. MAHIEU",
+                "away_player": "G. LOGIE",
+                "sets": "-6, 9, 7, -10, 10",
+                "result_sets": "3/2",
+                "result_game": "4-3"
+            },
+            {
+                "home_player": "J. MAHIEU",
+                "away_player": "O. GAILLET",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "5-3"
+            },
+            {
+                "home_player": "W. JANSSENS",
+                "away_player": "G. LOGIE",
+                "sets": "-3, -1, -3",
+                "result_sets": "0/3",
+                "result_game": "5-4"
+            },
+            {
+                "home_player": "M. KEMPINCK",
+                "away_player": "O. GAILLET",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "6-4"
+            },
+            {
+                "home_player": "G.-J. MAHIEU",
+                "away_player": "B. BURGRAEVE",
+                "sets": "5, 9, -11, 8",
+                "result_sets": "3/1",
+                "result_game": "7-4"
+            },
+            {
+                "home_player": "J. MAHIEU",
+                "away_player": "K. WOJCIK",
+                "sets": "9, -7, -8, 7, 9",
+                "result_sets": "3/2",
+                "result_game": "8-4"
+            },
+            {
+                "home_player": "W. JANSSENS",
+                "away_player": "O. GAILLET",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "9-4"
+            },
+            {
+                "home_player": "M. KEMPINCK",
+                "away_player": "G. LOGIE",
+                "sets": "-4, -2, -2",
+                "result_sets": "0/3",
+                "result_game": "9-5"
+            },
+            {
+                "home_player": "G.-J. MAHIEU",
+                "away_player": "K. WOJCIK",
+                "sets": "9, -7, -8, 7, -8",
+                "result_sets": "2/3",
+                "result_game": "9-6"
+            },
+            {
+                "home_player": "J. MAHIEU",
+                "away_player": "B. BURGRAEVE",
+                "sets": "7, 7, -7, 10",
+                "result_sets": "3/1",
+                "result_game": "10-6"
+            }
+        ]
+    },
+    "PWVLH20/064": {
+        "title": "Uitslagen Vlaamse Tafeltennisliga",
+        "home_players": [
+            {
+                "id": "514169",
+                "name": "BART VANDERPLAETSE * ^",
+                "classification": "D4",
+                "won": "2"
+            },
+            {
+                "id": "532356",
+                "name": "JENTE PAREYN",
+                "classification": "E0",
+                "won": "1"
+            },
+            {
+                "id": "500969",
+                "name": "PASCAL HUYBRECHS",
+                "classification": "E2",
+                "won": "1"
+            },
+            {
+                "id": "531918",
+                "name": "LUCAS DOMBRECHT",
+                "classification": "E4",
+                "won": "2"
+            }
+        ],
+        "away_players": [
+            {
+                "id": "531763",
+                "name": "JARNE DESMET",
+                "classification": "E0",
+                "won": "4"
+            },
+            {
+                "id": "529140",
+                "name": "BASIEL CAPPON",
+                "classification": "E0",
+                "won": "4"
+            },
+            {
+                "id": "526985",
+                "name": "WANNES VANNESTE",
+                "classification": "E0",
+                "won": "2"
+            },
+            {
+                "id": "519099",
+                "name": "KURT DEPAEPE *",
+                "classification": "E2",
+                "won": "0"
+            }
+        ],
+        "games": [
+            {
+                "home_player": "L. DOMBRECHT",
+                "away_player": "B. CAPPON",
+                "sets": "-6, 8, -9, -9",
+                "result_sets": "1/3",
+                "result_game": "0-1"
+            },
+            {
+                "home_player": "P. HUYBRECHS",
+                "away_player": "J. DESMET",
+                "sets": "-1, -10, -5",
+                "result_sets": "0/3",
+                "result_game": "0-2"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "K. DEPAEPE",
+                "sets": "5, -3, 4, 8",
+                "result_sets": "3/1",
+                "result_game": "1-2"
+            },
+            {
+                "home_player": "B. VANDERPLAETSE",
+                "away_player": "W. VANNESTE",
+                "sets": "-3, 4, 5, 8",
+                "result_sets": "3/1",
+                "result_game": "2-2"
+            },
+            {
+                "home_player": "L. DOMBRECHT",
+                "away_player": "J. DESMET",
+                "sets": "9, -5, 8, -2, -12",
+                "result_sets": "2/3",
+                "result_game": "2-3"
+            },
+            {
+                "home_player": "P. HUYBRECHS",
+                "away_player": "B. CAPPON",
+                "sets": "9, 9, -10, -4, -10",
+                "result_sets": "2/3",
+                "result_game": "2-4"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "W. VANNESTE",
+                "sets": "-3, -8, -6",
+                "result_sets": "0/3",
+                "result_game": "2-5"
+            },
+            {
+                "home_player": "B. VANDERPLAETSE",
+                "away_player": "K. DEPAEPE",
+                "sets": "4, 9, 3",
+                "result_sets": "3/0",
+                "result_game": "3-5"
+            },
+            {
+                "home_player": "L. DOMBRECHT",
+                "away_player": "W. VANNESTE",
+                "sets": "12, 1, 3",
+                "result_sets": "3/0",
+                "result_game": "4-5"
+            },
+            {
+                "home_player": "P. HUYBRECHS",
+                "away_player": "K. DEPAEPE",
+                "sets": "10, 5, 6",
+                "result_sets": "3/0",
+                "result_game": "5-5"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "J. DESMET",
+                "sets": "-10, -9, -8",
+                "result_sets": "0/3",
+                "result_game": "5-6"
+            },
+            {
+                "home_player": "B. VANDERPLAETSE",
+                "away_player": "B. CAPPON",
+                "sets": "3, -10, 1, -9, -14",
+                "result_sets": "2/3",
+                "result_game": "5-7"
+            },
+            {
+                "home_player": "L. DOMBRECHT",
+                "away_player": "K. DEPAEPE",
+                "sets": "6, -5, 8, 9",
+                "result_sets": "3/1",
+                "result_game": "6-7"
+            },
+            {
+                "home_player": "P. HUYBRECHS",
+                "away_player": "W. VANNESTE",
+                "sets": "-15, -8, -5",
+                "result_sets": "0/3",
+                "result_game": "6-8"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "B. CAPPON",
+                "sets": "-8, -5, 9, -9",
+                "result_sets": "1/3",
+                "result_game": "6-9"
+            },
+            {
+                "home_player": "B. VANDERPLAETSE",
+                "away_player": "J. DESMET",
+                "sets": "-8, 7, -6, 8, -9",
+                "result_sets": "2/3",
+                "result_game": "6-10"
+            }
+        ]
+    },
+    "PWVLH20/084": {
+        "title": "Uitslagen Vlaamse Tafeltennisliga",
+        "home_players": [
+            {
+                "id": "501134",
+                "name": "JEAN-PIERRE DEFOUR * ^",
+                "classification": "E2",
+                "won": "2 / 3"
+            },
+            {
+                "id": "524879",
+                "name": "SARI BLONDEEL",
+                "classification": "E2",
+                "won": "0 / 3"
+            },
+            {
+                "id": "527606",
+                "name": "JEROEN DOMBRECHT",
+                "classification": "E4",
+                "won": "0 / 3"
+            },
+            {
+                "id": "501132",
+                "name": "REGINE PHARASYN",
+                "classification": "E6",
+                "won": "0 / 3"
+            }
+        ],
+        "away_players": [
+            {
+                "id": "534083",
+                "name": "SERGE DELMOTTE",
+                "classification": "D6",
+                "won": "4"
+            },
+            {
+                "id": "505690",
+                "name": "ANDRE AUDEZ *",
+                "classification": "D6",
+                "won": "3"
+            },
+            {
+                "id": "500338",
+                "name": "JOHNNY LEMAIRE",
+                "classification": "E0",
+                "won": "3"
+            },
+            {
+                "id": "504025",
+                "name": "GUIDO PERSOONE",
+                "classification": "E0",
+                "won": "FF"
+            }
+        ],
+        "games": [
+            {
+                "home_player": "R. PHARASYN",
+                "away_player": "A. AUDEZ",
+                "sets": "-7, -6, -5",
+                "result_sets": "0/3",
+                "result_game": "0-1"
+            },
+            {
+                "home_player": "J. DOMBRECHT",
+                "away_player": "S. DELMOTTE",
+                "sets": "-7, 7, -3, -7",
+                "result_sets": "1/3",
+                "result_game": "0-2"
+            },
+            {
+                "home_player": "S. BLONDEEL",
+                "away_player": "G. PERSOONE",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "1-2"
+            },
+            {
+                "home_player": "J.-P. DEFOUR",
+                "away_player": "J. LEMAIRE",
+                "sets": "7, 10, 5",
+                "result_sets": "3/0",
+                "result_game": "2-2"
+            },
+            {
+                "home_player": "R. PHARASYN",
+                "away_player": "S. DELMOTTE",
+                "sets": "-4, -11, -2",
+                "result_sets": "0/3",
+                "result_game": "2-3"
+            },
+            {
+                "home_player": "J. DOMBRECHT",
+                "away_player": "A. AUDEZ",
+                "sets": "11, -7, -9, -10",
+                "result_sets": "1/3",
+                "result_game": "2-4"
+            },
+            {
+                "home_player": "S. BLONDEEL",
+                "away_player": "J. LEMAIRE",
+                "sets": "-0, -3, -9",
+                "result_sets": "0/3",
+                "result_game": "2-5"
+            },
+            {
+                "home_player": "J.-P. DEFOUR",
+                "away_player": "G. PERSOONE",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "3-5"
+            },
+            {
+                "home_player": "R. PHARASYN",
+                "away_player": "J. LEMAIRE",
+                "sets": "-4, -8, -0",
+                "result_sets": "0/3",
+                "result_game": "3-6"
+            },
+            {
+                "home_player": "J. DOMBRECHT",
+                "away_player": "G. PERSOONE",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "4-6"
+            },
+            {
+                "home_player": "S. BLONDEEL",
+                "away_player": "S. DELMOTTE",
+                "sets": "9, -9, -7, -6",
+                "result_sets": "1/3",
+                "result_game": "4-7"
+            },
+            {
+                "home_player": "J.-P. DEFOUR",
+                "away_player": "A. AUDEZ",
+                "sets": "-8, 9, -6, 5, 10",
+                "result_sets": "3/2",
+                "result_game": "5-7"
+            },
+            {
+                "home_player": "R. PHARASYN",
+                "away_player": "G. PERSOONE",
+                "sets": "",
+                "result_sets": "FF",
+                "result_game": "6-7"
+            },
+            {
+                "home_player": "J. DOMBRECHT",
+                "away_player": "J. LEMAIRE",
+                "sets": "-3, 4, -9, 13, -9",
+                "result_sets": "2/3",
+                "result_game": "6-8"
+            },
+            {
+                "home_player": "S. BLONDEEL",
+                "away_player": "A. AUDEZ",
+                "sets": "-8, -9, 7, -9",
+                "result_sets": "1/3",
+                "result_game": "6-9"
+            },
+            {
+                "home_player": "J.-P. DEFOUR",
+                "away_player": "S. DELMOTTE",
+                "sets": "-6, -7, -3",
+                "result_sets": "0/3",
+                "result_game": "6-10"
+            }
+        ]
+    },
+    "PWVLH20/074": {
+        "title": "Uitslagen Vlaamse Tafeltennisliga",
+        "home_players": [
+            {
+                "id": "532355",
+                "name": "JELLE PAREYN * ^",
+                "classification": "E4",
+                "won": "2"
+            },
+            {
+                "id": "530496",
+                "name": "MILAN MORTIER",
+                "classification": "E4",
+                "won": "4"
+            },
+            {
+                "id": "526291",
+                "name": "KURT D'HOORE",
+                "classification": "E4",
+                "won": "2"
+            },
+            {
+                "id": "530516",
+                "name": "DAVE IDE",
+                "classification": "E6",
+                "won": "1"
+            }
+        ],
+        "away_players": [
+            {
+                "id": "523293",
+                "name": "LUC GORSELE *",
+                "classification": "E2",
+                "won": "2"
+            },
+            {
+                "id": "520086",
+                "name": "MANUEL LOPES",
+                "classification": "E2",
+                "won": "3"
+            },
+            {
+                "id": "512209",
+                "name": "NICKY LAGAST",
+                "classification": "E6",
+                "won": "1"
+            },
+            {
+                "id": "532587",
+                "name": "JENS VANTORRE",
+                "classification": "NG",
+                "won": "1"
+            }
+        ],
+        "games": [
+            {
+                "home_player": "D. IDE",
+                "away_player": "M. LOPES",
+                "sets": "-3, -2, -3",
+                "result_sets": "0/3",
+                "result_game": "0-1"
+            },
+            {
+                "home_player": "K. D'HOORE",
+                "away_player": "L. GORSELE",
+                "sets": "9, 9, -8, -10, -10",
+                "result_sets": "2/3",
+                "result_game": "0-2"
+            },
+            {
+                "home_player": "M. MORTIER",
+                "away_player": "J. VANTORRE",
+                "sets": "11, 6, 8",
+                "result_sets": "3/0",
+                "result_game": "1-2"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "N. LAGAST",
+                "sets": "3, 6, -7, 3",
+                "result_sets": "3/1",
+                "result_game": "2-2"
+            },
+            {
+                "home_player": "D. IDE",
+                "away_player": "L. GORSELE",
+                "sets": "9, -9, 9, -5, 7",
+                "result_sets": "3/2",
+                "result_game": "3-2"
+            },
+            {
+                "home_player": "K. D'HOORE",
+                "away_player": "M. LOPES",
+                "sets": "-6, 6, -6, -9",
+                "result_sets": "1/3",
+                "result_game": "3-3"
+            },
+            {
+                "home_player": "M. MORTIER",
+                "away_player": "N. LAGAST",
+                "sets": "9, 8, 3",
+                "result_sets": "3/0",
+                "result_game": "4-3"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "J. VANTORRE",
+                "sets": "4, 8, 8",
+                "result_sets": "3/0",
+                "result_game": "5-3"
+            },
+            {
+                "home_player": "D. IDE",
+                "away_player": "N. LAGAST",
+                "sets": "-7, -7, 7, -6",
+                "result_sets": "1/3",
+                "result_game": "5-4"
+            },
+            {
+                "home_player": "K. D'HOORE",
+                "away_player": "J. VANTORRE",
+                "sets": "8, 10, 12",
+                "result_sets": "3/0",
+                "result_game": "6-4"
+            },
+            {
+                "home_player": "M. MORTIER",
+                "away_player": "L. GORSELE",
+                "sets": "8, 8, 5",
+                "result_sets": "3/0",
+                "result_game": "7-4"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "M. LOPES",
+                "sets": "-10, 8, -8, -7",
+                "result_sets": "1/3",
+                "result_game": "7-5"
+            },
+            {
+                "home_player": "D. IDE",
+                "away_player": "J. VANTORRE",
+                "sets": "6, 8, -9, -9, -5",
+                "result_sets": "2/3",
+                "result_game": "7-6"
+            },
+            {
+                "home_player": "K. D'HOORE",
+                "away_player": "N. LAGAST",
+                "sets": "5, -8, -9, 6, 8",
+                "result_sets": "3/2",
+                "result_game": "8-6"
+            },
+            {
+                "home_player": "M. MORTIER",
+                "away_player": "M. LOPES",
+                "sets": "8, -8, 5, -7, 6",
+                "result_sets": "3/2",
+                "result_game": "9-6"
+            },
+            {
+                "home_player": "J. PAREYN",
+                "away_player": "L. GORSELE",
+                "sets": "7, -7, -7, -6",
+                "result_sets": "1/3",
+                "result_game": "9-7"
+            }
+        ]
     }
 }
