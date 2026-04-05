@@ -17,7 +17,7 @@
         "name": "BART VANDERPLAETSE",
         "classification": "D4",
         "relative": -13,
-        "elo": 1253,
+        "elo": 1212,
         "frenoyId": "41895"
     },
     {
@@ -31,14 +31,14 @@
         "name": "DAVE IDE",
         "classification": "E6",
         "relative": -3,
-        "elo": 392,
+        "elo": 402,
         "frenoyId": "96101"
     },
     {
         "name": "GERT-JAN MAHIEU",
         "classification": "C2",
         "relative": 18,
-        "elo": 1777,
+        "elo": 1798,
         "frenoyId": "37490"
     },
     {
@@ -66,28 +66,28 @@
         "name": "JASPER MAHIEU",
         "classification": "B6",
         "relative": -8,
-        "elo": 2140,
+        "elo": 2150,
         "frenoyId": "37491"
     },
     {
         "name": "JEAN-PIERRE DEFOUR",
         "classification": "E2",
         "relative": -18,
-        "elo": 678,
+        "elo": 739,
         "frenoyId": "11604"
     },
     {
         "name": "JELLE PAREYN",
         "classification": "E4",
         "relative": 10,
-        "elo": 626,
+        "elo": 643,
         "frenoyId": "105563"
     },
     {
         "name": "JENTE PAREYN",
         "classification": "E0",
         "relative": -24,
-        "elo": 789,
+        "elo": 801,
         "frenoyId": "105565"
     },
     {
@@ -101,7 +101,7 @@
         "name": "JEROEN DOMBRECHT",
         "classification": "E4",
         "relative": 14,
-        "elo": 806,
+        "elo": 783,
         "frenoyId": "81329"
     },
     {
@@ -122,7 +122,7 @@
         "name": "KURT D'HOORE",
         "classification": "E4",
         "relative": 16,
-        "elo": 769,
+        "elo": 761,
         "frenoyId": "77260"
     },
     {
@@ -136,7 +136,7 @@
         "name": "LUCAS DOMBRECHT",
         "classification": "E4",
         "relative": 15,
-        "elo": 868,
+        "elo": 905,
         "frenoyId": "103069"
     },
     {
@@ -150,14 +150,14 @@
         "name": "MICHIEL KEMPINCK",
         "classification": "C4",
         "relative": 34,
-        "elo": 1632,
+        "elo": 1640,
         "frenoyId": "11497"
     },
     {
         "name": "MILAN MORTIER",
         "classification": "E4",
         "relative": 8,
-        "elo": 727,
+        "elo": 799,
         "frenoyId": "96111"
     },
     {
@@ -178,14 +178,14 @@
         "name": "PASCAL HUYBRECHS",
         "classification": "E2",
         "relative": 27,
-        "elo": 845,
+        "elo": 849,
         "frenoyId": "11557"
     },
     {
         "name": "REGINE PHARASYN",
         "classification": "E6",
         "relative": -3,
-        "elo": 402,
+        "elo": 401,
         "frenoyId": "11603"
     },
     {
@@ -199,7 +199,7 @@
         "name": "SARI BLONDEEL",
         "classification": "E2",
         "relative": -11,
-        "elo": 808,
+        "elo": 785,
         "frenoyId": "73688"
     },
     {
