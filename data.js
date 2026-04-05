@@ -47,7 +47,7 @@ window.PLAYER_STATS = [
     "name": "GWEN GRIJP",
     "classification": "E4",
     "relative": 4,
-    "elo": 0,
+    "elo": 730,
     "frenoyId": "8879"
   },
   {
