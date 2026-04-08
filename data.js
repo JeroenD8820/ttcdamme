@@ -5,7 +5,7 @@ window.PLAYER_STATS = [
     "name": "ANDREAS JACXSENS",
     "classification": "NG",
     "relative": 7,
-    "elo": 375,
+    "elo": 0,
     "frenoyId": "124291"
   },
   {
@@ -26,7 +26,7 @@ window.PLAYER_STATS = [
     "name": "BRIEK REYBROUCK",
     "classification": "NG",
     "relative": 8,
-    "elo": 349,
+    "elo": 0,
     "frenoyId": "119697"
   },
   {
@@ -54,14 +54,14 @@ window.PLAYER_STATS = [
     "name": "HANNE VAN BUYLAERE",
     "classification": "NG",
     "relative": -3,
-    "elo": 265,
+    "elo": 0,
     "frenoyId": "125339"
   },
   {
     "name": "IAN ROBBERECHTS",
     "classification": "NG",
     "relative": -4,
-    "elo": 228,
+    "elo": 0,
     "frenoyId": "119969"
   },
   {
@@ -145,7 +145,7 @@ window.PLAYER_STATS = [
     "name": "MARIA-HELENA FACK",
     "classification": "NG",
     "relative": -6,
-    "elo": 190,
+    "elo": 0,
     "frenoyId": "115103"
   },
   {
@@ -166,14 +166,14 @@ window.PLAYER_STATS = [
     "name": "NAND HERNOU",
     "classification": "NG",
     "relative": 37,
-    "elo": 486,
+    "elo": 0,
     "frenoyId": "115155"
   },
   {
     "name": "OLIVER VANAGT",
     "classification": "NG",
     "relative": -5,
-    "elo": 265,
+    "elo": 0,
     "frenoyId": "125347"
   },
   {
@@ -194,7 +194,7 @@ window.PLAYER_STATS = [
     "name": "ROBBE VAN BUYLAERE",
     "classification": "NG",
     "relative": -4,
-    "elo": 274,
+    "elo": 0,
     "frenoyId": "125341"
   },
   {
