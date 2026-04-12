@@ -110,7 +110,7 @@ window.PLAYER_STATS = [
     "name": "JOHAN MALFRERE",
     "classification": "E6",
     "relative": 3,
-    "elo": 0,
+    "elo": 588,
     "frenoyId": "84655"
   },
   {
