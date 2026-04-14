@@ -17,7 +17,7 @@
         "name": "BART VANDERPLAETSE",
         "classification": "D4",
         "relative": -13,
-        "elo": 1212,
+        "elo": 0,
         "frenoyId": "41895"
     },
     {
@@ -38,14 +38,14 @@
         "name": "GERT-JAN MAHIEU",
         "classification": "C2",
         "relative": 18,
-        "elo": 1798,
+        "elo": 0,
         "frenoyId": "37490"
     },
     {
         "name": "GWEN GRIJP",
         "classification": "E4",
         "relative": 4,
-        "elo": 730,
+        "elo": 0,
         "frenoyId": "8879"
     },
     {
@@ -66,14 +66,14 @@
         "name": "JASPER MAHIEU",
         "classification": "B6",
         "relative": -8,
-        "elo": 2150,
+        "elo": 0,
         "frenoyId": "37491"
     },
     {
         "name": "JEAN-PIERRE DEFOUR",
         "classification": "E2",
         "relative": -18,
-        "elo": 739,
+        "elo": 0,
         "frenoyId": "11604"
     },
     {
@@ -129,7 +129,7 @@
         "name": "LUC MAHIEU",
         "classification": "E4",
         "relative": -2,
-        "elo": 628,
+        "elo": 0,
         "frenoyId": "41516"
     },
     {
@@ -150,7 +150,7 @@
         "name": "MICHIEL KEMPINCK",
         "classification": "C4",
         "relative": 34,
-        "elo": 1640,
+        "elo": 0,
         "frenoyId": "11497"
     },
     {
@@ -178,14 +178,14 @@
         "name": "PASCAL HUYBRECHS",
         "classification": "E2",
         "relative": 27,
-        "elo": 849,
+        "elo": 0,
         "frenoyId": "11557"
     },
     {
         "name": "REGINE PHARASYN",
         "classification": "E6",
         "relative": -3,
-        "elo": 401,
+        "elo": 0,
         "frenoyId": "11603"
     },
     {
@@ -199,7 +199,7 @@
         "name": "SARI BLONDEEL",
         "classification": "E2",
         "relative": -11,
-        "elo": 785,
+        "elo": 0,
         "frenoyId": "73688"
     },
     {
@@ -213,7 +213,7 @@
         "name": "WOUTER JANSSENS",
         "classification": "E6",
         "relative": 1,
-        "elo": 691,
+        "elo": 0,
         "frenoyId": "54442"
     }
 ]
