@@ -5,14 +5,14 @@ window.PLAYER_STATS = [
     "name": "ANDREAS JACXSENS",
     "classification": "NG",
     "relative": 7,
-    "elo": 375,
+    "elo": 0,
     "frenoyId": "124291"
   },
   {
     "name": "BART D'HOORE",
     "classification": "E2",
     "relative": 3,
-    "elo": 739,
+    "elo": 0,
     "frenoyId": "77261"
   },
   {
@@ -26,14 +26,14 @@ window.PLAYER_STATS = [
     "name": "BRIEK REYBROUCK",
     "classification": "NG",
     "relative": 8,
-    "elo": 349,
+    "elo": 0,
     "frenoyId": "119697"
   },
   {
     "name": "DAVE IDE",
     "classification": "E6",
     "relative": -3,
-    "elo": 402,
+    "elo": 0,
     "frenoyId": "96101"
   },
   {
@@ -54,14 +54,14 @@ window.PLAYER_STATS = [
     "name": "HANNE VAN BUYLAERE",
     "classification": "NG",
     "relative": -3,
-    "elo": 265,
+    "elo": 0,
     "frenoyId": "125339"
   },
   {
     "name": "IAN ROBBERECHTS",
     "classification": "NG",
     "relative": -4,
-    "elo": 228,
+    "elo": 0,
     "frenoyId": "119969"
   },
   {
@@ -82,35 +82,35 @@ window.PLAYER_STATS = [
     "name": "JELLE PAREYN",
     "classification": "E4",
     "relative": 10,
-    "elo": 643,
+    "elo": 0,
     "frenoyId": "105563"
   },
   {
     "name": "JENTE PAREYN",
     "classification": "E0",
     "relative": -24,
-    "elo": 801,
+    "elo": 0,
     "frenoyId": "105565"
   },
   {
     "name": "JEROEN CATTOOR",
     "classification": "E4",
     "relative": 3,
-    "elo": 769,
+    "elo": 0,
     "frenoyId": "37807"
   },
   {
     "name": "JEROEN DOMBRECHT",
     "classification": "E4",
     "relative": 14,
-    "elo": 783,
+    "elo": 0,
     "frenoyId": "81329"
   },
   {
     "name": "JOHAN MALFRERE",
     "classification": "E6",
     "relative": 3,
-    "elo": 588,
+    "elo": 0,
     "frenoyId": "84655"
   },
   {
@@ -124,7 +124,7 @@ window.PLAYER_STATS = [
     "name": "KURT D'HOORE",
     "classification": "E4",
     "relative": 16,
-    "elo": 761,
+    "elo": 0,
     "frenoyId": "77260"
   },
   {
@@ -138,14 +138,14 @@ window.PLAYER_STATS = [
     "name": "LUCAS DOMBRECHT",
     "classification": "E4",
     "relative": 15,
-    "elo": 905,
+    "elo": 0,
     "frenoyId": "103069"
   },
   {
     "name": "MARIA-HELENA FACK",
     "classification": "NG",
     "relative": -6,
-    "elo": 190,
+    "elo": 0,
     "frenoyId": "115103"
   },
   {
@@ -159,21 +159,21 @@ window.PLAYER_STATS = [
     "name": "MILAN MORTIER",
     "classification": "E4",
     "relative": 8,
-    "elo": 799,
+    "elo": 0,
     "frenoyId": "96111"
   },
   {
     "name": "NAND HERNOU",
     "classification": "NG",
     "relative": 37,
-    "elo": 486,
+    "elo": 0,
     "frenoyId": "115155"
   },
   {
     "name": "OLIVER VANAGT",
     "classification": "NG",
     "relative": -5,
-    "elo": 265,
+    "elo": 0,
     "frenoyId": "125347"
   },
   {
@@ -194,7 +194,7 @@ window.PLAYER_STATS = [
     "name": "ROBBE VAN BUYLAERE",
     "classification": "NG",
     "relative": -4,
-    "elo": 274,
+    "elo": 0,
     "frenoyId": "125341"
   },
   {
