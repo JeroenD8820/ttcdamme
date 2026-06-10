@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 import re
 import time
 
@@ -87,38 +88,46 @@ def main():
         {"memberId": "534290", "name": "JORIS HERNOU", "frenoyId": "77259"}
     ]
 
-    # Load classifications from scraped_player_stats.json (from official VTTL rankings page)
-    # These are more reliable than individual player pages which may show next-season data
-    scraped_classifications = {}
+    # Load data from scraped_player_stats.json (club rankings page = completed season data).
+    # During season transitions, individual VTTL player pages return NG and elo=0,
+    # so the rankings page is the most reliable source.
+    scraped_data = {}
     scraped_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scraped_player_stats.json")
     if os.path.exists(scraped_path):
         with open(scraped_path, 'r', encoding='utf-8') as f:
             scraped = json.load(f)
         for p in scraped:
             key = normalize_name(p.get('name', ''))
-            scraped_classifications[key] = p.get('classification', 'NG')
-        print(f"Loaded {len(scraped_classifications)} classifications from scraped_player_stats.json")
+            scraped_data[key] = p
+        print(f"Loaded {len(scraped_data)} players from scraped_player_stats.json")
 
     results = []
     for p in existing_players:
-        player_data = get_player_data(p['frenoyId'])
-
-        # Use classification from rankings page if available (more reliable for current season)
         key = normalize_name(p['name'])
-        if key in scraped_classifications:
-            classification = scraped_classifications[key]
+        scraped = scraped_data.get(key, {})
+
+        # Use scraped (rankings page) data as primary source
+        # Fall back to individual page only if scraped data is missing
+        if scraped.get('elo', 0) > 0 or scraped.get('classification', 'NG') != 'NG':
+            elo = scraped.get('elo', 0)
+            relative = scraped.get('relative', 0)
+            classification = scraped.get('classification', 'NG')
         else:
-            classification = player_data.get("classification", "NG")
+            # Fallback: scrape individual page
+            player_data = get_player_data(p['frenoyId'])
+            elo = player_data.get('elo', 0)
+            relative = player_data.get('relative', 0)
+            classification = player_data.get('classification', 'NG')
+            time.sleep(1)
 
         results.append({
             "name": p['name'],
             "memberId": p['memberId'],
             "frenoyId": p['frenoyId'],
-            "elo": player_data.get("elo", 0),
-            "relative": player_data.get("relative", 0),
+            "elo": elo,
+            "relative": relative,
             "classification": classification
         })
-        time.sleep(1)
 
     with open("final_player_stats.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4)
