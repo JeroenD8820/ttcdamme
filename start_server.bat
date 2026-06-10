@@ -7,16 +7,28 @@ echo.
 
 cd /d "%~dp0"
 
-echo Controleren of Flask geïnstalleerd is...
+echo Controleren of Flask geinstalleerd is...
 python -c "import flask" 2>nul
 if %errorlevel% neq 0 (
-    echo Flask installeren...
-    python -m pip install flask --quiet
+    echo Flask niet gevonden - installeren...
+    python -m pip install flask
+    if %errorlevel% neq 0 (
+        echo FOUT: Flask kon niet geinstalleerd worden.
+        echo Probeer handmatig: python -m pip install flask
+        pause
+        exit /b 1
+    )
+    echo Flask succesvol geinstalleerd!
+) else (
+    echo Flask is al geinstalleerd.
 )
 
 echo.
-echo Server starten op http://localhost:5000
-echo Druk op CTRL+C om te stoppen.
+echo ============================================
+echo   Server starten op http://localhost:5000
+echo   Open deze URL in je browser.
+echo   Druk op CTRL+C om te stoppen.
+echo ============================================
 echo.
 python server.py
 pause

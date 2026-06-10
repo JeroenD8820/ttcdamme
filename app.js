@@ -21,12 +21,12 @@ class DataProvider {
 
             // Prepare players data
             const players = Array.isArray(statsRes) ? statsRes.map(p => ({
-                memberId: p.memberId || '',
-                frenoyId: p.frenoyId || '',
-                name: p.name || '',
-                classification: p.classification || '',
-                elo: p.elo || 0,
-                relative: p.relative || 0
+                memberId: p.memberId,
+                frenoyId: p.frenoyId,
+                name: p.name,
+                classification: p.classification,
+                elo: p.elo,
+                relative: p.relative
             })) : [];
 
             // Hardcoded basic rankings (kept consistent with current state)
@@ -252,90 +252,88 @@ class Dashboard {
             });
         });
 
-        // --- Shared update logic for both refresh buttons ---
-        const triggerUpdate = async (btn) => {
-            const serverUrl = window.location.protocol === 'file:' ? 'http://localhost:5000' : '';
-            btn.disabled = true;
-            btn.classList.add('spinning');
-
-            // Keep both buttons in sync
-            const refreshBtn = document.getElementById('refresh-btn');
-            const syncFab = document.getElementById('sync-fab');
-            if (refreshBtn) { refreshBtn.disabled = true; refreshBtn.classList.add('spinning'); }
-            if (syncFab)    { syncFab.disabled = true;    syncFab.classList.add('spinning'); }
-
-            try {
-                const triggerRes = await fetch(`${serverUrl}/api/update`, {
-                    method: 'POST',
-                    signal: AbortSignal.timeout(3000)
-                });
-
-                if (!triggerRes.ok) throw new Error('Server fout');
-
-                this.showToast('⏳ Data ophalen van VTTL...', 'info', 60000);
-
-                let done = false;
-                let attempts = 0;
-                while (!done && attempts < 120) {
-                    await new Promise(r => setTimeout(r, 2000));
-                    attempts++;
-                    const statusRes = await fetch(`${serverUrl}/api/update/status`);
-                    const status = await statusRes.json();
-                    if (!status.running) {
-                        done = true;
-                        if (status.result && status.result.success) {
-                            this.showToast(`✅ Data bijgewerkt om ${status.result.timestamp}`, 'success');
-                            setTimeout(() => location.reload(), 1500);
-                        } else {
-                            const errLog = status.result && status.result.logs ? status.result.logs : [];
-                            // Zoek naar de lijn met '✗ FOUT' erin, of neem de laatste lijn, anders een standaardmelding
-                            let specificError = 'Onbekende fout';
-                            const errorLines = errLog.filter(l => l.includes('✗ FOUT'));
-                            if (errorLines.length > 0) {
-                                specificError = errorLines[errorLines.length - 1]; // Pak de laatste error
-                            } else if (errLog.length > 0) {
-                                specificError = errLog[errLog.length - 1];
-                            }
-                            // Kap af als het te lang is
-                            if (specificError.length > 50) specificError = specificError.substring(0, 50) + '...';
-                            
-                            this.showToast(`❌ Update mislukt: ${specificError}`, 'error', 6000);
-                            console.error('Update logs:', errLog.join('\n'));
-                        }
-                    }
-                }
-
-                if (!done) {
-                    this.showToast('⚠️ Timeout: update duurt te lang.', 'error');
-                }
-            } catch (e) {
-                this.showToast('🔄 Server niet actief - pagina herladen...', 'info', 2000);
-                setTimeout(() => location.reload(), 1500);
-            } finally {
-                if (refreshBtn) { refreshBtn.disabled = false; refreshBtn.classList.remove('spinning'); }
-                if (syncFab)    { syncFab.disabled = false;    syncFab.classList.remove('spinning'); }
-            }
-        };
-
-        // Refresh button (header, top right)
+        // Refresh button - three scenarios:
+        // 1. GitHub Pages (github.io) → data wordt automatisch door GitHub Actions bijgewerkt
+        // 2. localhost → Flask server aanroepen voor live update
+        // 3. file:// → probeer localhost:5000, anders herladen
         const refreshBtn = document.getElementById('refresh-btn');
         if (refreshBtn) {
-            refreshBtn.addEventListener('click', () => triggerUpdate(refreshBtn));
-        }
+            refreshBtn.addEventListener('click', async () => {
+                const isGitHubPages = window.location.hostname.includes('github.io');
+                const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+                const isFile = window.location.protocol === 'file:';
 
-        // Sync FAB button (bottom of page)
-        const syncFab = document.getElementById('sync-fab');
-        if (syncFab) {
-            syncFab.addEventListener('click', () => triggerUpdate(syncFab));
-        }
+                // --- GitHub Pages: data wordt automatisch bijgewerkt door GitHub Actions ---
+                if (isGitHubPages) {
+                    refreshBtn.disabled = true;
+                    refreshBtn.classList.add('spinning');
+                    this.showToast('🔄 Nieuwste data laden van GitHub...', 'info', 2000);
+                    setTimeout(() => {
+                        location.reload(true); // force reload, skip cache
+                    }, 1200);
+                    setTimeout(() => {
+                        refreshBtn.disabled = false;
+                        refreshBtn.classList.remove('spinning');
+                    }, 2000);
+                    return;
+                }
 
+                // --- Localhost of file:// → probeer Flask server ---
+                const serverUrl = isFile ? 'http://localhost:5000' : '';
+                refreshBtn.disabled = true;
+                refreshBtn.classList.add('spinning');
+
+                try {
+                    const triggerRes = await fetch(`${serverUrl}/api/update`, {
+                        method: 'POST',
+                        signal: AbortSignal.timeout(3000)
+                    });
+
+                    if (!triggerRes.ok) throw new Error('Server fout');
+
+                    this.showToast('⏳ Data ophalen van VTTL... (±2 min)', 'info', 120000);
+
+                    // Poll until done
+                    let done = false;
+                    let attempts = 0;
+                    while (!done && attempts < 120) {
+                        await new Promise(r => setTimeout(r, 2000));
+                        attempts++;
+                        const statusRes = await fetch(`${serverUrl}/api/update/status`);
+                        const status = await statusRes.json();
+                        if (!status.running) {
+                            done = true;
+                            if (status.result && status.result.success) {
+                                this.showToast(`✅ Data bijgewerkt om ${status.result.timestamp}`, 'success');
+                                setTimeout(() => location.reload(), 1500);
+                            } else {
+                                const errLog = status.result ? status.result.logs.join('\n') : 'Onbekende fout';
+                                this.showToast('❌ Update mislukt. Zie console voor details.', 'error');
+                                console.error('Update logs:', errLog);
+                            }
+                        }
+                    }
+
+                    if (!done) {
+                        this.showToast('⚠️ Timeout: update duurt te lang.', 'error');
+                    }
+                } catch (e) {
+                    // Flask server niet actief → gewoon herladen
+                    this.showToast('🔄 Pagina herladen...', 'info', 2000);
+                    setTimeout(() => location.reload(), 1500);
+                } finally {
+                    refreshBtn.disabled = false;
+                    refreshBtn.classList.remove('spinning');
+                }
+            });
+        }
     }
 
     filterPlayers(query) {
         const q = query.toLowerCase();
         this.filteredPlayers = this.allPlayers.filter(p =>
             p.name.toLowerCase().includes(q) ||
-            p.memberId.toLowerCase().includes(q)
+            p.memberId.includes(q)
         );
         this.renderPlayers();
     }
