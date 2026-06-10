@@ -2,11 +2,10 @@ import json
 import os
 
 def convert():
-    # Gebruik de map waar dit script in staat, in plaats van een hardcoded pad
     data_dir = os.path.dirname(os.path.abspath(__file__))
     
     files = {
-        "PLAYER_STATS": "scraped_player_stats.json",
+        "PLAYER_STATS": "final_player_stats.json",
         "TEAM_CALENDARS": "team_calendars.json",
         "MATCH_DETAILS": "match_details.json"
     }
