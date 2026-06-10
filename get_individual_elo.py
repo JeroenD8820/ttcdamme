@@ -101,24 +101,41 @@ def main():
             scraped_data[key] = p
         print(f"Loaded {len(scraped_data)} players from scraped_player_stats.json")
 
+    # Load manual overrides (Highest priority!)
+    # VTTL has strict AntiBot blocking our scripts right now. 
+    # This JSON file allows manual correction of new season classifications.
+    manual_overrides = {}
+    manual_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual_classifications.json")
+    if os.path.exists(manual_path):
+        with open(manual_path, 'r', encoding='utf-8') as f:
+            raw_overrides = json.load(f)
+            # Normalize keys to avoid DOMBRECHT LUCAS vs LUCAS DOMBRECHT issues
+            for k, v in raw_overrides.items():
+                manual_overrides[normalize_name(k)] = v
+        print(f"Loaded {len(manual_overrides)} manual overrides.")
+
     results = []
     for p in existing_players:
         key = normalize_name(p['name'])
         scraped = scraped_data.get(key, {})
 
-        # Use scraped (rankings page) data as primary source
-        # Fall back to individual page only if scraped data is missing
+        # 1. Start with scraped (rankings page) data as primary source
         if scraped.get('elo', 0) > 0 or scraped.get('classification', 'NG') != 'NG':
             elo = scraped.get('elo', 0)
             relative = scraped.get('relative', 0)
             classification = scraped.get('classification', 'NG')
         else:
-            # Fallback: scrape individual page
+            # 2. Fallback: scrape individual page
             player_data = get_player_data(p['frenoyId'])
             elo = player_data.get('elo', 0)
             relative = player_data.get('relative', 0)
             classification = player_data.get('classification', 'NG')
             time.sleep(1)
+
+        # 3. Apply manual overrides if they exist
+        if key in manual_overrides:
+            classification = manual_overrides[key]
+            print(f"  -> Override applied: {key} is now {classification}")
 
         results.append({
             "name": p['name'],

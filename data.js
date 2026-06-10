@@ -5,25 +5,25 @@ window.PLAYER_STATS = [
     "name": "JASPER MAHIEU",
     "memberId": "512926",
     "frenoyId": "37491",
-    "elo": 2157,
-    "relative": -8,
-    "classification": "B6"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "GERT-JAN MAHIEU",
     "memberId": "512925",
     "frenoyId": "37490",
-    "elo": 1763,
-    "relative": 13,
-    "classification": "C2"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "MICHIEL KEMPINCK",
     "memberId": "500783",
     "frenoyId": "11497",
-    "elo": 1675,
-    "relative": 32,
-    "classification": "C4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "DAAN DE JAEGHERE",
@@ -37,17 +37,17 @@ window.PLAYER_STATS = [
     "name": "BART VANDERPLAETSE",
     "memberId": "514169",
     "frenoyId": "41895",
-    "elo": 1217,
-    "relative": -8,
-    "classification": "D4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "VICTOR VANHOVE",
     "memberId": "513374",
     "frenoyId": "39178",
     "elo": 0,
-    "relative": -2,
-    "classification": "D6"
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "KRISTOF ADAM",
@@ -62,208 +62,208 @@ window.PLAYER_STATS = [
     "memberId": "504715",
     "frenoyId": "8879",
     "elo": 0,
-    "relative": 4,
-    "classification": "E4"
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "BRIEK REYBROUCK",
     "memberId": "535114",
     "frenoyId": "119697",
-    "elo": 349,
-    "relative": 8,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "IAN ROBBERECHTS",
     "memberId": "535166",
     "frenoyId": "119969",
-    "elo": 228,
-    "relative": -4,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "MARIA-HELENA FACK",
     "memberId": "534291",
     "frenoyId": "115103",
-    "elo": 190,
-    "relative": -6,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "OLIVER VANAGT",
     "memberId": "536044",
     "frenoyId": "125347",
-    "elo": 265,
-    "relative": -5,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "HANNE VAN BUYLAERE",
     "memberId": "535947",
     "frenoyId": "125339",
-    "elo": 265,
-    "relative": -3,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "ROBBE VAN BUYLAERE",
     "memberId": "535948",
     "frenoyId": "125341",
-    "elo": 274,
-    "relative": -4,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "ANDREAS JACXSENS",
     "memberId": "535946",
     "frenoyId": "124291",
-    "elo": 375,
-    "relative": 7,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "DAVE IDE",
     "memberId": "530516",
     "frenoyId": "96101",
-    "elo": 389,
-    "relative": -4,
-    "classification": "E6"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "NAND HERNOU",
     "memberId": "534289",
     "frenoyId": "115155",
-    "elo": 486,
-    "relative": 37,
+    "elo": 0,
+    "relative": 0,
     "classification": "NG"
   },
   {
     "name": "REGINE PHARASYN",
     "memberId": "501132",
     "frenoyId": "11603",
-    "elo": 421,
-    "relative": -3,
-    "classification": "E6"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "JOHAN MALFRERE",
     "memberId": "527709",
     "frenoyId": "84655",
-    "elo": 588,
-    "relative": 3,
-    "classification": "E6"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "LUC MAHIEU",
     "memberId": "513960",
     "frenoyId": "41516",
-    "elo": 627,
-    "relative": -1,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "MILAN MORTIER",
     "memberId": "530496",
     "frenoyId": "96111",
-    "elo": 726,
-    "relative": 1,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "WOUTER JANSSENS",
     "memberId": "517743",
     "frenoyId": "54442",
-    "elo": 691,
-    "relative": 1,
-    "classification": "E6"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "JEAN-PIERRE DEFOUR",
     "memberId": "501134",
     "frenoyId": "11604",
-    "elo": 678,
-    "relative": -23,
-    "classification": "E2"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "BART D'HOORE",
     "memberId": "526292",
     "frenoyId": "77261",
-    "elo": 739,
-    "relative": 3,
-    "classification": "E2"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "JENTE PAREYN",
     "memberId": "532356",
     "frenoyId": "105565",
-    "elo": 806,
-    "relative": -20,
-    "classification": "E0"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "JELLE PAREYN",
     "memberId": "532355",
     "frenoyId": "105563",
-    "elo": 689,
-    "relative": 11,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "SARI BLONDEEL",
     "memberId": "524879",
     "frenoyId": "73688",
-    "elo": 804,
-    "relative": -9,
-    "classification": "E2"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "LUCAS DOMBRECHT",
     "memberId": "531918",
     "frenoyId": "103069",
-    "elo": 868,
-    "relative": 10,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "E0"
   },
   {
     "name": "JEROEN DOMBRECHT",
     "memberId": "527606",
     "frenoyId": "81329",
-    "elo": 802,
-    "relative": 13,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "E2"
   },
   {
     "name": "KURT D'HOORE",
     "memberId": "526291",
     "frenoyId": "77260",
-    "elo": 821,
-    "relative": 15,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "JEROEN CATTOOR",
     "memberId": "513031",
     "frenoyId": "37807",
-    "elo": 769,
-    "relative": 3,
-    "classification": "E4"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "PASCAL HUYBRECHS",
     "memberId": "500969",
     "frenoyId": "11557",
-    "elo": 868,
-    "relative": 26,
-    "classification": "E2"
+    "elo": 0,
+    "relative": 0,
+    "classification": "NG"
   },
   {
     "name": "JORIS HERNOU",
     "memberId": "534290",
     "frenoyId": "77259",
     "elo": 0,
-    "relative": 6,
-    "classification": "E4"
+    "relative": 0,
+    "classification": "NG"
   }
 ];
 
