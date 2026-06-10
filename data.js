@@ -267,7 +267,12 @@ window.PLAYER_STATS = [
   }
 ];
 
-window.TEAM_CALENDARS = {};
+window.TEAM_CALENDARS = {
+  "A": [],
+  "B": [],
+  "C": [],
+  "D": []
+};
 
 window.MATCH_DETAILS = {};
 
