@@ -2,15 +2,16 @@ name: Update TTC Damme Data
 
 on:
   schedule:
+    # Run at 06:00 and 22:00 UTC (= 07:00 and 23:00 Belgian time)
     - cron: '0 6 * * *'
     - cron: '0 22 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # Allow manual trigger from GitHub Actions tab
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Needed to commit updated data files
 
     steps:
       - name: Checkout repository
@@ -22,13 +23,24 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install requests beautifulsoup4
 
       - name: Run data update scripts
         run: |
+          echo "=== Step 1: Fetching player rankings ==="
           python get_all_rankings.py
+
+          echo "=== Step 2: Fetching individual player ELO and stats ==="
+          python get_individual_elo.py
+
+          echo "=== Step 3: Fetching team calendars ==="
           python get_team_calendars.py
+
+          echo "=== Step 4: Fetching match details ==="
           python get_match_details.py
+
+          echo "=== Step 5: Converting JSON to data.js ==="
           python json_to_js.py
 
       - name: Commit and push updated data
@@ -36,5 +48,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.js scraped_player_stats.json team_calendars.json match_details.json
-          git diff --staged --quiet || git commit -m "Automatisch VTTL data update"
+          git diff --staged --quiet || git commit -m "🤖 Auto-update data: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
