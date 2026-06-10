@@ -12,7 +12,6 @@
     <link rel="manifest" href="manifest.json">
     <title>TTC Damme - Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -33,6 +32,12 @@
                 <li><a href="#results">Resultaten</a></li>
                 <li><a href="#players">Leden</a></li>
             </ul>
+            <div class="season-selector-container" style="margin-left: 1rem;">
+                <select id="season-selector" class="glass-select" style="padding: 0.5rem; font-size: 0.9rem; margin: 0;">
+                    <option value="26_27">Seizoen 2026-2027</option>
+                    <option value="25_26">Seizoen 2025-2026</option>
+                </select>
+            </div>
         </div>
     </nav>
 
@@ -179,14 +184,6 @@
         </section>
     </main>
 
-    <!-- Floating Sync Button -->
-    <div class="fab-container">
-        <button id="sync-fab" class="sync-fab" title="Gegevens synchroniseren met VTTL">
-            <i class="fas fa-sync-alt"></i>
-            <span>Synchroniseren</span>
-        </button>
-    </div>
-
     <footer>
         <p>&copy; 2026 TTC Damme - Data powered by <a href="https://competitie.vttl.be" target="_blank">VTTL</a></p>
     </footer>
@@ -288,6 +285,7 @@
         </div>
     </div>
 
+    <script src="data_25_26.js"></script>
     <script src="data.js"></script>
     <script src="app.js"></script>
     <script>

@@ -9,12 +9,20 @@ class DataProvider {
         this.matchDetails = null;
     }
 
-    async init() {
+    async init(seasonId = '26_27') {
         try {
-            // Read from global variables populated by data.js
-            const statsRes = window.PLAYER_STATS || [];
-            const calendarsRes = window.TEAM_CALENDARS || {};
-            const detailsRes = window.MATCH_DETAILS || {};
+            // Read from global variables populated by data.js or data_25_26.js
+            let statsRes, calendarsRes, detailsRes;
+
+            if (seasonId === '25_26' && window.DATA_25_26) {
+                statsRes = window.DATA_25_26.PLAYER_STATS || [];
+                calendarsRes = window.DATA_25_26.TEAM_CALENDARS || {};
+                detailsRes = window.DATA_25_26.MATCH_DETAILS || {};
+            } else {
+                statsRes = window.PLAYER_STATS || [];
+                calendarsRes = window.TEAM_CALENDARS || {};
+                detailsRes = window.MATCH_DETAILS || {};
+            }
 
             this.calendars = calendarsRes;
             this.matchDetails = detailsRes;
@@ -169,30 +177,67 @@ class Dashboard {
         this.init();
     }
 
-    async init() {
-        console.log("Initializing Dashboard...");
-        const data = await this.provider.init();
+    async init(seasonId = '26_27') {
+        console.log("Initializing Dashboard for season:", seasonId);
+        const data = await this.provider.init(seasonId);
         if (data) {
             this.allPlayers = data.players;
-            this.filteredPlayers = [...this.allPlayers];
+            
+            // Apply any active filters if changing seasons
+            const searchInput = document.getElementById('player-search');
+            if (searchInput && searchInput.value) {
+                const q = searchInput.value.toLowerCase();
+                this.filteredPlayers = this.allPlayers.filter(p =>
+                    p.name.toLowerCase().includes(q) ||
+                    p.memberId.includes(q)
+                );
+            } else {
+                this.filteredPlayers = [...this.allPlayers];
+            }
+            
+            const sortSelect = document.getElementById('player-sort');
+            if (sortSelect && sortSelect.value !== 'elo') {
+                 // Sort logic is simple so we can just call it (though it re-renders inside, we do full render later)
+                 // actually, just sorting the array is enough
+                 const criteria = sortSelect.value;
+                 this.filteredPlayers.sort((a, b) => {
+                    if (criteria === 'elo') return b.elo - a.elo;
+                    if (criteria === 'relative') return b.relative - a.relative;
+                    if (criteria === 'name') return a.name.localeCompare(b.name);
+                    if (criteria === 'classification') return a.classification.localeCompare(b.classification);
+                    return 0;
+                });
+            }
+
             this.fullRankings = data.fullRankings;
             this.calendars = this.provider.calendars;
             this.matchDetails = this.provider.matchDetails;
 
             this.render(data);
-            this.setupEventListeners();
+            
+            if (!this.eventsBound) {
+                this.setupEventListeners();
+                this.eventsBound = true;
+            }
         }
     }
 
     setupEventListeners() {
         const searchInput = document.getElementById('player-search');
         const sortSelect = document.getElementById('player-sort');
+        const seasonSelector = document.getElementById('season-selector');
         const closeBtns = document.querySelectorAll('.close-btn');
         const rankingModal = document.getElementById('ranking-modal');
         const matchModal = document.getElementById('match-modal');
         const opponentModal = document.getElementById('opponent-modal');
         const tabBtns = document.querySelectorAll('.tab-btn');
         const collapsibles = document.querySelectorAll('.collapsible-header');
+
+        if (seasonSelector) {
+            seasonSelector.addEventListener('change', (e) => {
+                this.init(e.target.value);
+            });
+        }
 
         searchInput.addEventListener('input', (e) => {
             // Auto-expand members section when user starts typing
