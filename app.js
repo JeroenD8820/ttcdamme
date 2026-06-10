@@ -746,14 +746,17 @@ class Dashboard {
         const toast = document.createElement('div');
         toast.id = 'ttc-toast';
         toast.textContent = message;
+        const bgColor = type === 'success' ? '#059669' : type === 'error' ? '#DC2626' : '#FFFFFF';
+        const textColor = type === 'info' ? '#111827' : '#FFFFFF';
+        const borderColor = type === 'info' ? '#E5E7EB' : 'transparent';
         toast.style.cssText = `
             position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
-            background: ${type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : 'rgba(255,255,255,0.15)'};
-            color: white; padding: 12px 24px; border-radius: 12px;
-            backdrop-filter: blur(12px); font-size: 0.95rem; font-weight: 600;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.3); z-index: 9999;
-            border: 1px solid rgba(255,255,255,0.2); white-space: nowrap;
-            animation: toastIn 0.3s ease;
+            background: ${bgColor};
+            color: ${textColor}; padding: 12px 24px; border-radius: 12px;
+            backdrop-filter: blur(12px); font-size: 0.9rem; font-weight: 600;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.12); z-index: 9999;
+            border: 1px solid ${borderColor}; white-space: nowrap;
+            animation: toastIn 0.3s ease; font-family: 'Inter', sans-serif;
         `;
 
         if (!document.getElementById('ttc-toast-style')) {
