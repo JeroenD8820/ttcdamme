@@ -618,12 +618,9 @@ class Dashboard {
         const body = document.getElementById('calendar-upcoming-body');
         if (!body) return;
 
-        // Filter to show only Damme matches
+        // allMatches: not yet played (no score) — filtered further by date below
         const allMatches = (this.calendars[this.activeTeamUpcoming] || []).filter(m => !m.score || !m.score.includes('-'));
         const dammeTeamName = `Damme ${this.activeTeamUpcoming}`;
-        const matches = allMatches.filter(m =>
-            m.home_team.includes(dammeTeamName) || m.away_team.includes(dammeTeamName)
-        );
 
         const parseVTTLDate = (dStr) => {
             if (!dStr || dStr === 'TBD') return new Date(0);
@@ -633,9 +630,31 @@ class Dashboard {
             return new Date(2000 + parseInt(y), parseInt(m) - 1, parseInt(d));
         };
 
+        // Only show matches in the future (date >= today)
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        const matches = allMatches.filter(m => {
+            if (!m.home_team.includes(dammeTeamName) && !m.away_team.includes(dammeTeamName)) return false;
+            const matchDate = parseVTTLDate(m.date);
+            return matchDate >= today;
+        });
+
         matches.sort((a, b) => parseVTTLDate(a.date) - parseVTTLDate(b.date));
 
         body.innerHTML = '';
+
+        // If no upcoming matches, show a season-transition message
+        if (matches.length === 0) {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td colspan="5" style="text-align:center; padding: 2rem; opacity: 0.6; font-style: italic;">
+                📅 Geen komende wedstrijden gevonden.<br>
+                <small>Het seizoen 2025-2026 is afgelopen. De kalender voor 2026-2027 is nog niet beschikbaar.</small>
+            </td>`;
+            body.appendChild(tr);
+            return;
+        }
+
         matches.forEach(m => {
             const tr = document.createElement('tr');
 

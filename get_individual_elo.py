@@ -86,24 +86,44 @@ def main():
         {"memberId": "500969", "name": "PASCAL HUYBRECHS", "frenoyId": "11557"},
         {"memberId": "534290", "name": "JORIS HERNOU", "frenoyId": "77259"}
     ]
-    
+
+    # Load classifications from scraped_player_stats.json (from official VTTL rankings page)
+    # These are more reliable than individual player pages which may show next-season data
+    scraped_classifications = {}
+    scraped_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scraped_player_stats.json")
+    if os.path.exists(scraped_path):
+        with open(scraped_path, 'r', encoding='utf-8') as f:
+            scraped = json.load(f)
+        for p in scraped:
+            key = normalize_name(p.get('name', ''))
+            scraped_classifications[key] = p.get('classification', 'NG')
+        print(f"Loaded {len(scraped_classifications)} classifications from scraped_player_stats.json")
+
     results = []
     for p in existing_players:
         player_data = get_player_data(p['frenoyId'])
-        
+
+        # Use classification from rankings page if available (more reliable for current season)
+        key = normalize_name(p['name'])
+        if key in scraped_classifications:
+            classification = scraped_classifications[key]
+        else:
+            classification = player_data.get("classification", "NG")
+
         results.append({
             "name": p['name'],
             "memberId": p['memberId'],
             "frenoyId": p['frenoyId'],
             "elo": player_data.get("elo", 0),
             "relative": player_data.get("relative", 0),
-            "classification": player_data.get("classification", "NG")
+            "classification": classification
         })
         time.sleep(1)
-        
+
     with open("final_player_stats.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4)
     print(f"Saved {len(results)} players to final_player_stats.json")
 
 if __name__ == "__main__":
     main()
+
