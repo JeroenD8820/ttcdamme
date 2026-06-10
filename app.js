@@ -38,15 +38,18 @@ class DataProvider {
             })) : [];
 
             // Hardcoded basic rankings (kept consistent with current state)
-            const rankings = [
-                { team: "Damme A", division: "1ste Provinciale A", position: 6, matches: 15, points: 31 },
-                { team: "Damme B", division: "3de Provinciale C", position: 10, matches: 15, points: 19 },
-                { team: "Damme C", division: "4de Provinciale B", position: 5, matches: 15, points: 31 },
-                { team: "Damme D", division: "4de Provinciale A", position: 7, matches: 15, points: 30 }
-            ];
+            let rankings = [];
+            let fullRankings = {};
 
-            // Detailed rankings (matching the data.js content or hardcoded fallback)
-            const fullRankings = {
+            if (seasonId === '25_26') {
+                rankings = [
+                    { team: "Damme A", division: "1ste Provinciale A", position: 6, matches: 15, points: 31 },
+                    { team: "Damme B", division: "3de Provinciale C", position: 10, matches: 15, points: 19 },
+                    { team: "Damme C", division: "4de Provinciale B", position: 5, matches: 15, points: 31 },
+                    { team: "Damme D", division: "4de Provinciale A", position: 7, matches: 15, points: 30 }
+                ];
+
+                fullRankings = {
                 "Damme A": [
                     { "position": "1", "team": "T.T.C. Drive Oostende A", "matches": "15", "wins": "13", "losses": "0", "draws": "2", "points": "43" },
                     { "position": "2", "team": "T.T.C. Jong Gullegem D", "matches": "15", "wins": "11", "losses": "3", "draws": "1", "points": "38" },
@@ -103,7 +106,12 @@ class DataProvider {
                     { "position": "11", "team": "T.T.C. Koekelare E", "matches": "15", "wins": "3", "losses": "12", "draws": "0", "points": "20" },
                     { "position": "12", "team": "T.T.C. Bredene A", "matches": "15", "wins": "1", "losses": "14", "draws": "0", "points": "15" }
                 ]
-            };
+                };
+            } else {
+                // Seizoen 26-27 is nog niet gestart, dus geen rankings
+                rankings = [];
+                fullRankings = {};
+            }
 
             // Recente Resultaten (Last played matches from all calendars)
             const allPlayed = [];
