@@ -108,10 +108,8 @@ def main():
     manual_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual_classifications.json")
     if os.path.exists(manual_path):
         with open(manual_path, 'r', encoding='utf-8') as f:
-            raw_overrides = json.load(f)
-            # Normalize keys to avoid DOMBRECHT LUCAS vs LUCAS DOMBRECHT issues
-            for k, v in raw_overrides.items():
-                manual_overrides[normalize_name(k)] = v
+            # We now use Member ID as keys for 100% accuracy
+            manual_overrides = json.load(f)
         print(f"Loaded {len(manual_overrides)} manual overrides.")
 
     results = []
@@ -132,10 +130,11 @@ def main():
             classification = player_data.get('classification', 'NG')
             time.sleep(1)
 
-        # 3. Apply manual overrides if they exist
-        if key in manual_overrides:
-            classification = manual_overrides[key]
-            print(f"  -> Override applied: {key} is now {classification}")
+        # 3. Apply manual overrides if they exist (using Member ID)
+        member_id = str(p.get('memberId', ''))
+        if member_id in manual_overrides:
+            classification = manual_overrides[member_id]
+            print(f"  -> Override applied: Member {member_id} ({p['name']}) is now {classification}")
 
         results.append({
             "name": p['name'],

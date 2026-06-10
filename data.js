@@ -7,7 +7,7 @@ window.PLAYER_STATS = [
     "frenoyId": "37491",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "B6"
   },
   {
     "name": "GERT-JAN MAHIEU",
@@ -15,7 +15,7 @@ window.PLAYER_STATS = [
     "frenoyId": "37490",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "C2"
   },
   {
     "name": "MICHIEL KEMPINCK",
@@ -23,7 +23,7 @@ window.PLAYER_STATS = [
     "frenoyId": "11497",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "C4"
   },
   {
     "name": "DAAN DE JAEGHERE",
@@ -31,7 +31,7 @@ window.PLAYER_STATS = [
     "frenoyId": "11681",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "C6"
   },
   {
     "name": "BART VANDERPLAETSE",
@@ -39,7 +39,7 @@ window.PLAYER_STATS = [
     "frenoyId": "41895",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "D4"
   },
   {
     "name": "VICTOR VANHOVE",
@@ -47,7 +47,7 @@ window.PLAYER_STATS = [
     "frenoyId": "39178",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "D6"
   },
   {
     "name": "KRISTOF ADAM",
@@ -55,7 +55,7 @@ window.PLAYER_STATS = [
     "frenoyId": "11561",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E2"
   },
   {
     "name": "GWEN GRIJP",
@@ -63,7 +63,7 @@ window.PLAYER_STATS = [
     "frenoyId": "8879",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E4"
   },
   {
     "name": "BRIEK REYBROUCK",
@@ -127,7 +127,7 @@ window.PLAYER_STATS = [
     "frenoyId": "96101",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E6"
   },
   {
     "name": "NAND HERNOU",
@@ -135,7 +135,7 @@ window.PLAYER_STATS = [
     "frenoyId": "115155",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E6"
   },
   {
     "name": "REGINE PHARASYN",
@@ -143,7 +143,7 @@ window.PLAYER_STATS = [
     "frenoyId": "11603",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E6"
   },
   {
     "name": "JOHAN MALFRERE",
@@ -151,7 +151,7 @@ window.PLAYER_STATS = [
     "frenoyId": "84655",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E6"
   },
   {
     "name": "LUC MAHIEU",
@@ -159,7 +159,7 @@ window.PLAYER_STATS = [
     "frenoyId": "41516",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E4"
   },
   {
     "name": "MILAN MORTIER",
@@ -167,7 +167,7 @@ window.PLAYER_STATS = [
     "frenoyId": "96111",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E4"
   },
   {
     "name": "WOUTER JANSSENS",
@@ -175,7 +175,7 @@ window.PLAYER_STATS = [
     "frenoyId": "54442",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E6"
   },
   {
     "name": "JEAN-PIERRE DEFOUR",
@@ -183,7 +183,7 @@ window.PLAYER_STATS = [
     "frenoyId": "11604",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E2"
   },
   {
     "name": "BART D'HOORE",
@@ -191,7 +191,7 @@ window.PLAYER_STATS = [
     "frenoyId": "77261",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E2"
   },
   {
     "name": "JENTE PAREYN",
@@ -199,7 +199,7 @@ window.PLAYER_STATS = [
     "frenoyId": "105565",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E2"
   },
   {
     "name": "JELLE PAREYN",
@@ -207,7 +207,7 @@ window.PLAYER_STATS = [
     "frenoyId": "105563",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E4"
   },
   {
     "name": "SARI BLONDEEL",
@@ -215,7 +215,7 @@ window.PLAYER_STATS = [
     "frenoyId": "73688",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E2"
   },
   {
     "name": "LUCAS DOMBRECHT",
@@ -239,7 +239,7 @@ window.PLAYER_STATS = [
     "frenoyId": "77260",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E2"
   },
   {
     "name": "JEROEN CATTOOR",
@@ -247,7 +247,7 @@ window.PLAYER_STATS = [
     "frenoyId": "37807",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E4"
   },
   {
     "name": "PASCAL HUYBRECHS",
@@ -255,7 +255,7 @@ window.PLAYER_STATS = [
     "frenoyId": "11557",
     "elo": 0,
     "relative": 0,
-    "classification": "NG"
+    "classification": "E0"
   },
   {
     "name": "JORIS HERNOU",
